@@ -1,0 +1,67 @@
+#saveChanges{
+	float: right;
+	margin-top: 140px;
+}
+
+.inputs{
+	margin-top: 10px;
+}
+
+#username{
+	margin-left: 0;
+}
+
+#imagePreview{
+	display: none;
+	
+}
+
+.separator{
+	border-bottom: 1px solid #DDDDDD;
+	box-shadow: 0 1px 0 #FFFFFF;
+	background-color: white;
+}
+
+.Lseparador{
+	margin-top: 27px; 
+	margin-bottom: 27px;
+}
+
+#settingsContainer p{
+	color: #4D4D4D;
+	font-size: larger;
+}
+
+#settingsContainer h1{
+	color: #000000;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+#quote{
+	font-family: "Helvetica","Arial",sans-serif;
+	font-size: 11px;
+}
+
+.uplContainer{
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+
+#leftD{
+	float: left;
+}
+
+#rightD{
+	border-left: 1px solid #FFFFFF;
+    box-shadow: -1px 0 0 #DDDDDD;
+	float: right;
+}
+
+.groupContainer{
+	margin-top: 5px;
+	color: #333;
+	font-size: smaller;
+}

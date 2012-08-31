@@ -1,0 +1,1194 @@
+                                                 /* 
+                                                 Document   : style
+                                                 Created on : 14-dic-2011, 23:55:27
+                                                 Author     : hp
+                                                 Description:
+                                                 Purpose of the stylesheet follows.
+                                                 http://www.tuswallpapersgratis.com/images/wallpapers/New_York_en_escalas_Grises_1280x800-202046.jpeg
+                                                 */
+                                                 
+                                                 /* 
+                                                 TODO customize this sample style
+                                                 Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+                                                 
+                                                 */
+                                                 a{text-decoration:none;  } 
+                                                 a:visited{text-decoration:none;color:#e5e5e5}
+                                                 a:link{color:#777}
+                                                 textarea {
+                                                 
+                                                 resize: none;
+                                                 
+                                                 }
+                                                 ::selection {
+                                                 background: #CA3030 !important; /* Safari */
+                                                 color:#fff;
+                                                 text-shadow: 0 1px #CA3030 !important;
+                                                 }
+                                                 ::-moz-selection {
+                                                 background: #CA3030 !important; /* Firefox */
+                                                 color:#fff;
+                                                 text-shadow: 0 1px  #CA3030 !important;
+                                                 
+                                                 }              
+                                                 
+                                                 body{
+                                                 overflow-y: auto;
+                                                 color: #4D4D4D;
+                                                 direction: ltr;
+                                                 
+                                                 font-size: 11px;
+                                                 line-height: 1.32;
+                                                 font:12px/140% "Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;
+                                                 background-attachment: fixed !important;
+                                                 
+                                                 
+                                                 }
+                                                 
+                                                 .tickerheader{
+                                                 
+                                                 
+                                                 border-radius: 0 5px 5px 5px;
+                                                 
+                                                 height: auto;
+                                                 margin: 0 auto;
+                                                 padding-bottom: 41px;
+                                                 padding-top: 20px;
+                                                 width: 1011px;
+                                                 }
+                                                 /****************************************************************** seccion del logo */
+                                                 #binds{
+                                                 
+                                                 background: url("../images/icon/sbnd2.png") no-repeat scroll 0 6px transparent;
+                                                 cursor: pointer;
+                                                 float: left;
+                                                 height: 42px;
+                                                 left: 37px;
+                                                 margin-top: 6px;
+                                                 position: absolute;
+                                                 width: 160px;
+                                                 }
+                                                 
+                                                 
+                                                 /******************************************************************/
+                                                 
+                                                 
+                                                 
+                                                 .toolShare{float:right} /* es para ahcerle fix y se aline la barra de topics*/
+                                                 .leftBarWidth{width: 647px !important;margin-left: -25px !important;  } /* es para hacer crecer la barar de abajo de topicos*/
+                                                 
+                                                 /********************* UI caja para compartir informacion ************************************/
+                                                 .uiBoxTopicShare{
+                                                 
+                                                 height:191px ;margin-top: 12px;margin-left: 0 !important;margin-left: -23px !important;
+                                                 border-bottom: 1px solid #ccc;  margin-bottom: 3px;display: none;   
+                                                 
+                                                 }
+                                                 
+                                                 
+                                                 
+                                                 .absolute{
+                                                 
+                                                 position: absolute;
+                                                 
+                                                 }
+                                                 /**********************************************************************************/
+                                                 #head{ /*este did contiene la busqueda y el nombre del usuario con fotografia*/
+
+                                                 
+                                        background: none repeat scroll 0 0 rgba(255, 255, 255, 0.73);
+    box-shadow: 0 1px #FFFFFF inset, 0 1px 2px rgba(34, 25, 25, 0.4);
+    height: 51px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+                                                 }
+                                                 
+                                                 #contentSP{ /* este div contiene SF search and Photograph para centrarlas */
+                                                 
+                                               background: url("../images/bg/bg-header.png") repeat scroll 0 0 transparent;
+    height: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+                                                 }
+                                                 /******************************************************************/
+                                                 /* este div es el que posiciona al input hacia la izquierda para quedar primero : logo , input , menu */
+                                                 #PositionSearch{
+                                                 float:left;
+                                                 width:445px;
+                                                 height:42px;    
+                                                 }
+                                                 
+                                                 #search{  /* input de busqueda*/
+                                                 
+                                             background: url("../images/icon/search.png") no-repeat scroll 5px 50% #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 21px 21px 21px 21px;
+    box-shadow: 0 1px #FFFFFF, 0 1px rgba(20, 9, 6, 0.6) inset;
+    color: #444444;
+    font-size: 11px;
+    height: 33px;
+    margin-top: 6px;
+    opacity: 0.6;
+    padding-left: 26px;
+    width: 213px;
+                                                 } 
+                                                 #search:focus{opacity:1;
+                                                 color: #222;  }
+                                                 /******************************************************************/
+                                                 #content{
+                                                 
+                                                
+                                                 border-radius: 0 0 6px 6px;
+                                                 display: block;
+                                                 height: auto;
+                                                 margin: 0 auto;
+                                                 min-height: 400px;
+                                                 overflow-x: hidden;
+                                                 overflow-y: auto;
+                                                 padding-left: 11px;
+                                                 padding-right: 20px;
+                                                 position: relative;
+                                                 top: 31px;
+                                                 width: 976px;
+                                                 z-index: 2;
+                                                  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.88);
+                                                 
+                                                 }
+                                                 
+                                                 
+                                                 .columLeft{  /* esta es para la seccion de columnas de la derecha*/
+                                                 
+                                                 border-bottom:1px solid #eee;
+                                                 
+                                                 padding-bottom: 2px;
+                                                 
+                                                 width:234px;
+                                                 height:187px; 
+                                                 float:left;
+                                                 margin-top:15px; 
+                                                 height: auto;
+                                                 }
+                                                 .fixposition{   margin-top: 6px;}
+                                                 .fixColRight{width:313px;margin-top: 0px; border-bottom-width: 0px;border-left: 1px solid #1e1e1e; margin-left:-1px !important;}
+                                                 
+                                                 
+                                                 
+                                                 /***************************************************************** footer*/
+                                                 #footer{
+                                                 
+                                                 bottom:0;
+                                                 width:100%;
+                                                 height:90px;
+                                                 
+                                                 margin-top: 0;
+                                                 }
+                                                 #ContentAbout{ /* este es el contenedor de la lista de opciones de acerca de*/
+                                                 top:0; 
+                                                 margin: 0 auto;
+                                                 width: 960px;  
+                                                 height:35px; 
+                                                 
+                                                 border-top:0;
+                                                 
+                                                 border-radius: 0  0 3px  3px  ;
+                                                 
+                                                 }
+                                                 
+                                                 /******************************************************************/
+                                                 
+                                                 /*   UI de las listas en el menu */
+                                                 /******************************************************************/
+                                                 #contentMenuHead{
+                                                 float: right;
+                                                 height: 42px;
+                                                 margin-top: 0;
+                                                 width: 354px;
+                                                 }
+                                                 
+                                                 /*******************************************************************/
+                                                 /* propiedades para ambas listas*/
+                                                 
+                                                 .elementUI{ color: #444444 !important;
+    font-size: 11px;
+    font-weight: bold;
+                                                 font-weight: bold;}
+                                                 .elementUI:hover{ color:#333!important}
+                                                 
+                                                 .elementList , .elementTopic {
+                                                 
+                                                 margin-right: 9px;
+                                                 
+                                                 height: 10px;
+                                                 line-height: 11px;
+                                                 padding: 14px;
+                                                 
+                                                 
+                                                 
+                                                 }
+                                                 
+                                                 .UIBoxList{
+                                                 
+                                                 padding: 10px 8px;
+                                                 padding-bottom: 27px;
+                                                 
+                                                 } /*  estilo para el menu de usuario*/
+                                                 
+                                                 
+                                                 /***********************lista de menu en head***********************************/
+                                                 .elementList{
+                                                 
+                                                 float:right;
+                                                 /* border-right: 1px solid #555   ;
+                                                 box-shadow: -1px 0 #333 inset;   */
+                                                 
+                                                 }
+                                                 
+                                                 
+                                                 
+                                                 /*************** se aplica el hover para ambas listas (menu head y topics)*******************************/
+                                                 
+                                                 .elementList:hover,.elementTopic:hover{
+                                                 cursor: pointer;
+                                                 color: #111;  
+                                                 text-shadow: 0 1px #FFFFFF;
+                                                 
+                                                 }
+                                                 
+                                                 /**************************Este es el menu de pestañas que controlan el contenido ***********/
+                                                 
+                                                 .Menu{
+                                                 
+                                                 
+                                                 float: left;
+                                                 padding-bottom: 9px;
+                                                 padding-top: 12px;
+                                                 width: 233px;
+                                                 }
+                                                 
+                                                 .none{
+                                                 height: 14px !important;
+                                                 
+                                                 } 
+                                                 
+                                                 .Menu:hover{ 
+                                                 color: #CA3030;
+                                                 cursor: pointer;}
+                                                 
+                                                 
+                                                 .MenuActive{
+                                                 background: #fff;
+                                                 width: 100%;
+                                                 }
+                                                 
+                                                 .menutabs li:last-child{
+                                                 border-top:1px solid #DDD;
+                                                 border-bottom-left-radius: 5px;
+                                                 border-bottom-right-radius: 5px;
+                                                 border-bottom: 1px solid #DDD;
+                                                 }
+                                                 
+                                                 .menutabs li:first-child{
+                                                 border-top: 1px solid #ccc;
+                                                 border-top-left-radius: 5px;
+                                                 border-top-right-radius: 5px;
+                                                 
+                                                 }
+                                                 .menutabs li{
+                                                 border-right: 1px solid #DDD;
+                                                 border-left: 1px solid #DDD;
+                                                 background: #fff;
+                                                 
+                                                 }
+                                                 
+                                                 
+                                                 .border-menu{
+                                                 
+                                                 background-color: #F9F9F9;
+                                                 border-top: 1px solid #E8E8E8;
+                                                 
+                                                 }
+                                                 
+                                                 /******************************************************************/
+                                                 
+                                                 
+                                                 .uiIcon.icon:before {
+                                                 content: "";
+                                                 position: relative; 
+                                                 top: -6px; 
+                                                 float:left;
+                                                 
+                                                 
+                                                 width: 16px; 
+                                                 height: 19px; 
+                                                 margin: 0 0.5em 0 0; 
+                                                 /*background: url(../images/icon/icons_binds.png) 99px 99px  no-repeat;*/
+                                                 opacity: 0.7;
+                                                 }
+                                                 
+                                                 /*************** EFECTOS AMAGENES************************************************/
+                                                 .uiIcon.Music:hover,.uiIcon.Music:hover,.uiIcon.Video:hover,.uiIcon.Quess:hover,
+                                                 .uiIcon.Photo:hover,.uiIcon.Event:hover{opacity:.9 ;}
+                                                 
+                                                 
+                                                 
+                                                 .uiIcon.Music:active,.uiIcon.Video:active,.uiIcon.Photo:active,.uiIcon.Quess:active,
+                                                 .uiIcon.Event:active{opacity:.2 ;}
+                                                 
+                                                 /*********************************************************************************/
+                                                 .uiIcon.Music:before  { background-position: -97px 1px }
+                                                 
+                                                 /*********************************************************************************/
+                                                 .uiIcon.Video:before  { background-position:-146px 1px }
+                                                 /*********************************************************************************/
+                                                 .uiIcon.Photo:before  { background-position: -196px 1px}
+                                                 /*********************************************************************************/
+                                                 .uiIcon.Quess:before  { background-position:-5px -1px; }
+                                                 /*********************************************************************************/
+                                                 .uiIcon.Event:before { background-position: -288px 0px}
+                                                 
+                                                 /*********************************************************************************/
+                                                 .uiIcon.highlighicon:before { background-position: -51px 1px }
+                                                 /**************** triangulo **************************************/
+                                                 
+                                                 .uiIcon.cronologyicon:before { background-position: -347px 1px}
+                                                 /**************** triangulo **************************************/
+                                                 
+                                                 
+                                                 .tAng{  
+                                                 border-color: #C0C0C0 transparent transparent;
+                                                 border-style: solid;
+                                                 border-width: 3px 3px 0;
+                                                 display: inline-block;
+                                                 font-size: 0;
+                                                 height: 0;
+                                                 left: 4px;
+                                                 line-height: 0;
+                                                 margin-left: 3px;
+                                                 padding-top: 1px;     
+                                                 }
+                                                 /************************ UI de fotografia y nombre en menu************************************/
+                                                 
+                                                 .UserPicMenu{
+                                                 margin-left: -44px; margin-top: -1px;   padding: 2px;
+                                                 }
+                                                 
+                                                 .NameUser{
+                                                 
+                                                 
+                                                 }
+                                                 
+                                                 
+                                                 #Status{ float: left;
+                                                 height: 60px;
+                                                 border-bottom: 1px solid #DDDDDD;
+                                                 box-shadow: 0 1px 0 #FFFFFF;
+                                                 padding-top: 12px;
+                                                 
+                                                 height: auto;
+                                                 margin-bottom: 11px;
+                                                 width:0;
+                                                 margin-left: -6px;
+                                                 margin-top: 16px;
+                                                 }
+                                                 
+                                                 /*  fix para la informacion del usuario*/
+                                                 
+                                                 .fixusercontainer{padding-top:0;margin-top:-4px; padding-bottom:0; overflow-y:hidden; height:auto;    }
+                                                 
+                                                 
+                                                 /*  Contenedor de fotogradfia*/
+                                                 .ContainerPhotoUser{  height:70px;width:68px; float:left; }
+                                                 
+                                                 /* Imagen de usuario */
+                                                 .PhotoUser{
+                                                 padding-left:0; cursor:pointer; 
+                                                 }
+                                                 /* icono de los status*/
+                                                 
+                                                 .iconStatus{margin-left: 2px;}
+                                                 
+                                                 
+                                                 /* Nombre y provincia de usuario (listas) */
+                                                 
+                                                 .UserData{float:right; 
+                                                 margin-top:5px;
+                                                 width:505x;min-height:90px; height:auto;overflow-y:hidden;
+                                                 margin-bottom: 6px; }
+                                                 /* Nombre y provincia de usuario (listas) para que solo nombre aparesca en negrita */
+                                                 
+                                                 .FixUserData{  ;cursor:pointer; }
+                                                 
+                                                 /* este contendra el numero de seguidores de vistas de storyboard y actividades*/
+                                                 .containerIdStatus{ height:52px; float:left; margin-top: -3px; margin-left:8px;  overflow-y:hidden; min-width:180px; width:auto; }
+                                                 /* este contendra algun dato del estado de usuario en la box right*/
+                                                 .ListStatusUser{
+                                                 height: 27px;
+                                                 color: #777777;
+                                                 content: "";
+                                                 float: left;
+                                                 font-family: Georgia,"Times New Roman",Times,serif;
+                                                 font-size: 17px;
+                                                 
+                                                 margin-left: 6px;
+                                                 overflow-x: auto;
+                                                 width: auto;
+                                                 }
+                                                 /* al pasar el mouse este cambiara de color a naranja */
+                                                 .ListStatusUser:hover,.FixUserData:hover{color:#db3b1b !important;cursor:pointer;}
+                                                 /* este contendra como se llama el stado mostrado del usuario*/
+                                                 
+                                                 .DescriptionStatusId{width:30px;height:17px;width:68px;  content: '';
+                                                 color:#999;
+                                                 padding-top: 2px;text-align:center;cursor:pointer; text-shadow:0 1px #FFFFFF; left:2px;   }
+                                                 
+                                                 
+                                                 /*  este fix es para cuando se hacen mas columnas derechas la segunda columna o la siguieente se le quiete el pading de 20px por la barra negra que ya no esta */
+                                                 .FixBarRight{padding-top:1px !important; }
+                                                 
+                                                 /*  clase para el menu vertical ( contenedot )*/
+                                                 /* ***************** BEGIN MENU VERTICAL OPACity*************************************************************************/
+                                                 .MenuVertital{
+                                                 background: none repeat scroll 0 0 #FFF;
+                                                 border-radius: 0 0 3px 3px;
+                                                 box-shadow: 0 2px 4px rgba(34, 25, 25, 0.5);
+                                                 display: none;
+                                                 height: auto;
+                                                 padding-top: 4px;
+                                                 position: absolute;
+                                                 width: 152px;
+                                                 font-size: 11px;
+                                                 }
+                                                 
+                                                 /* Opcion dentro de menu vertical  background:#111; background:rgba(0,0,0,0.70);  con esto hacemos el milagro :D*/
+                                                 
+                                                 .OpMenuVertical{width:100%;height: 29px; 
+                                                 line-height: 30px;color:#888;text-shadow: 0 1px #FFFFFF;
+                                                 text-align:center;   }
+                                                 
+                                                 .OpMenuVertical:hover{opacity:.9 !important;color:#fff;background:#EF594B;  }
+                                                 
+                                                 .OpMenuVertical:hover{;color:#ffffff; text-shadow: 0 0 ;}
+                                                 
+                                                 /* ***************************** END MENU VERTICAL OPACity ***********************************************************************/
+                                                 /* Este es el primer  menu donde va el nmrbre*/
+                                                 #MenuUserMenuOption{margin-left: -9px;   margin-top: 19px; }
+                                                 
+                                                 /*  este es para que se bajen inicio storyboard y nombre ( menu superior) y cuando se quiera mostrar el menu se muestre 1mm abajo de la barra*/
+                                                 #contentMenuHead .elementList{margin-top: 7px;}
+                                                 
+                                                 /* el circulo de notify */
+                                                 
+                                                 .CircleNotify{ 
+                                                 border-radius:18px;
+                                                 box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.17) inset, 0 1px 1px rgba(0, 0, 0, 0.2);
+                                                 color: #FFFFFF;
+                                                 cursor: pointer;
+                                                 font-size: 9px;
+                                                 position: absolute;
+                                                 height: 17px;
+                                                 min-width: 17px;
+                                                 width:auto;
+                                                 
+                                                 line-height: 18px;
+                                                 
+                                                 float:right; 
+                                                 text-align: center;
+                                                 text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+                                                 margin-top: -14px;  
+                                                 display: inline;
+                                                 }
+                                                 
+                                                 .CircleNotify.Red{  background: #C53337; }
+                                                 .CircleNotify.Pink{  background:#5B4835; margin-top: -14px;  }
+                                                 .CircleNotify.Purple{  background: #873E56; margin-top: -14px;  }
+                                                 
+                                                 /* hacer invisible el segundo container el de alertas para cuando inice sesion aparesca cronologia*/
+                                                 
+                                                 #AlertContainer{display:none; }
+                                                 
+                                                 
+                                                 /*  ponemos que se estire el height a todo lo que se requiera y quitamos border ; ( recordemos que antes tenia atributos de colright )  */
+                                                 .MainColRight{height:auto;border: 0;padding:0 !important; }
+                                                 
+                                                 /* este es el contenedor principal de un topico :)*/
+                                                 
+                                                 .ContainerOptionTopicMenu{ width:295px;height:40px;padding-bottom: 8px;padding-top: 10px;}
+                                                 
+                                                 /* Topic format es sirve de UI para IMAGE , y topic format view */
+                                                 
+                                                 .TopicFormatImage,.TopicFormatView{float:left;height:40px;width:47px;  }
+                                                 
+                                                 /* pero view es donde ira el boton este tndra que flotar a la derecha*/
+                                                 .TopicFormatView{float:right;  }
+                                                 
+                                                 /* este le dara el formato general a followers y titulo de topico*/
+                                                 
+                                                 .TopicFormatInfo{float:left;height:18px;width:194px; }
+                                                 
+                                                 /* titulo del topico UI*/
+                                                 
+                                                 .TitTopic{ color:#2398C9;cursor:pointer; }
+                                                 .TitTopic:hover{color:#0378C7;}
+                                                 /* Follow del topico UI*/
+                                                 .FollTopic{color: #999999;line-height: 16px;cursor:pointer;}
+                                                 .FollTopic:hover{color: #444;}
+                                                 
+                                                 /* Imgaen del boton para seguir del topico UI*/
+                                                 
+                                                 .ButtonTopicView{margin:10px;cursor:pointer;opacity:.7; }
+                                                 /* Eventos al pulsar el boton*/
+                                                 .ButtonTopicView:hover{opacity:.8; }
+                                                 .ButtonTopicView:active{opacity:1; }
+                                                 /* Imgaen del boton para seguir del topico UI*/
+                                                 
+                                                 /* posicionar la caja donde van los topic notify arriba */
+                                                 /* vamos a ocultar los divs alertas topicos y mensajes para que puedan funcionar dinamicamente*/
+                                                 
+                                                 
+                                                 #ContainerTopicNotify,#ContainerAlertNotify,#ContainerMessageNotify{
+                                                 margin-top:-14px; 
+                                                 padding-top:5px; 
+                                                 display:none;
+                                                 height: 0; 
+                                                 
+                                                 }
+                                                 
+                                                 
+                                                 /*  para el pie de popagina la informacion */
+                                                 
+                                                 .footerInfoFixed{
+                                                 float:left;
+                                                 margin-left:22px;
+                                                 
+                                                 }
+                                                 
+                                                 .footerInfoFixed:hover{cursor: pointer;}
+                                                 
+                                                 #footerInfo{
+color: #666666;
+    font-size: 11px;
+    height: 8px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px !important;
+    width: 499px;
+                                                 
+                                                 }
+                                                 
+                                                 
+                                                 
+                                                 /* stilos de imagenes de usuarios */
+                                                 
+                                                 .image{    
+                                                 float:left;
+                                                 padding: 5px 3px;
+                                                 
+                                                 }
+                                                 
+                                                 
+                                                 /* interfaz para los comentarios */
+                                                 
+                                                 
+                                                 .strctChatResponse{
+                                                 background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
+                                                 border-top: 1px solid #F0F1F2;
+                                                 
+                                                 float: right;
+                                                 min-height: 45px;
+                                                 overflow-x: hidden;
+                                                 overflow-y: auto;
+                                                 padding-bottom: 1px;
+                                                 padding-left: 23px;
+                                                 padding-top: 8px;
+                                                 width: 449px !important;
+                                                 }
+                                                 
+                                                 
+                                                 .fixpositionThread{
+                                                 
+                                                 margin-top: -22px;
+                                                 }
+                                                 
+                                                 #sendingcomentreply{
+                                                 margin-left: 308px;margin-top: 19px;
+                                                 
+                                                 }
+                                                 
+                                                 .structChatComnt,.structChatResponseContainer{ 
+                                                 background: none repeat scroll 0 0 #FCFCFC;
+                                                 border: 13px solid #FFFFFF;
+                                                 border-radius: 3px 3px 3px 3px;
+                                                 box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+                                                 height: auto;
+                                                 margin-bottom: 22px;
+                                                 margin-top: 2px;
+                                                 overflow: hidden;
+                                                 width: 546px;
+                                                 z-index: 1000000;
+                                                 
+                                                 
+                                                 
+                                                 }
+                                                 
+                                                 
+                                                 
+                                                 
+                                                 
+                                                 .delete{
+                                                 display: none;
+                                                 margin-bottom: -23px;
+                                                 margin-left: 447px;
+                                                 margin-top: 7px;
+                                                 opacity: 0.5;
+                                                 position: absolute;
+                                                 
+                                                 }      
+                                                 
+                                                 
+                                                 
+                                                 
+                                                 .inputComent{  
+                                                 float: right;
+                                                 font-size: 11px;
+                                                 height: 15px;
+                                                 margin-right: 29px;
+                                                 margin-top: 13px;
+                                                 overflow: hidden;
+                                                 padding-right: 3px;
+                                                 resize: none;
+                                                 width: 581px !important;
+                                                 
+                                                 
+                                                 }
+                                                 
+                                                 .structChatResponseContainer{  float: right;
+                                                 width: 536px;  background: #F5F5F5;}
+                                                 
+                                                 .UITextUserComent{padding-top:4px;float: left ;margin-left: 14px;}
+                                                 
+                                                 .date{ color:#bbb; } /*  ui para fecha en comentario y cualquier otro*/
+                                                 
+                                                 
+                                                 
+                                                 .name:hover{ color:#C03030 !important; cursor: pointer;}
+                                                 
+                                                 .fixName{margin-left: 1px; font-size: 12px;
+                                                 }
+                                                 
+                                                 .fixOptComent,.fixName{ margin-top: -5px;}
+                                                 
+                                                 /* Este contenedor tiene los comentarios */
+                                                 .UIContntComentsChat{ 
+                                                 background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
+                                                 float: left;
+                                                 height: auto;
+                                                 margin-bottom: 21px;
+                                                 margin-left: 2px;
+                                                 margin-top: 3px;
+                                                 min-height: 24px;
+                                                 padding-top: 5px;
+                                                 width: 100% !important;
+                                                 
+                                                 
+                                                 }
+                                                 /* estilo de los comentarios */
+                                                 .UiMSG{ 
+                                                 
+                                                 line-height: 18px;
+                                                 margin-left: 1px;
+                                                 overflow-x: hidden;
+                                                 text-align: left;
+                                                 text-shadow: 0 1px #FFFFFF;
+                                                 width: 465px;
+                                                 }
+                                                 
+                                                 
+                                                 .UiMSGResponse{ 
+                                                 color: #777777;
+                                                 float: left;
+                                                 font-size: 11px;
+                                                 height: auto;
+                                                 margin-top: 5px;
+                                                 padding-left: 11px;
+                                                 width: 337px;
+                                                 }
+                                                 
+                                                 
+                                                 .UI_reply{
+                                                 color: #444444 !important;
+                                                 margin-top: 5px !important;
+                                                 }
+                                                 
+                                                 
+                                                 /* lista que contiene las opciones sobre un comentario*/
+                                                 .UIlistOptionCmnt{margin-left: 1px;float:left;  }
+                                                 
+                                                 .fixStructResponceCmnt{width: 402px !important;}
+                                                 
+                                                 
+                                                 /* linea que divide a ver mas comentar y mensaje*/
+                                                 .line{ color:#ddd !important;   }
+                                                 
+                                                 
+                                                 /*   UI PARA ANUNCIO!!! */
+                                                 
+                                                 .fixCmnt{margin-top: 15px; margin-left: 72px; margin-bottom: 17px;}
+                                                 
+                                                 .fixChat{margin-top: 25px; background:0; }
+                                                 
+                                                 .titleAnun{font-size:16px !important;color:#555 !important;}
+                                                 
+                                                 .imageFix{border:0;background:0;box-shadow:0 0  0 0;   }
+                                                 
+                                                 
+                                                 .boldFont{font-weight:bold;}
+                                                 
+                                                 
+                                                 
+                                                 
+                                                 
+                                                 
+                                                 .borderImage{
+                                                 margin-top: 1px;
+                                                 height: 66px; width: 66px;    
+                                                 background-color: #FFFFFF;
+                                                 border: 4px solid #FFFFFF;
+                                                 border-radius: 2px 2px 2px 2px;     
+                                                 
+                                                 background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+                                                 border-radius: 3px 3px 3px 3px;
+                                                 box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.7) ;
+                                                 display: block;    
+                                                 
+                                                 
+                                                 } /*  este es para las imagenes tengan borde y paresca levantado*/
+                                                 
+                                                 
+                                                 .imageuserbar{  background: none repeat scroll 0 0 #DDDDDD;
+                                                 margin-bottom: -8px;
+                                                 margin-right: 3px;
+                                                 border-radius: 20px 20px 20px 20px; 
+                                                 margin-top: -7px;
+                                                 padding: 1px;} /* estilos para la imagen que se encuientra en la barra superior "head"*/
+                                                 
+                                                 .fixpositionStatus{margin-left: -15px;  margin-top: -9px;} /* para posicionar correctamente los seguidores los siguiendo i visitas*/
+                                                 
+                                                 
+                                                 .ok{  /* user available UA*/
+                                                 
+                                                 background: url('../images/icon/ok.png') no-repeat scroll right center white !important;
+                                                 
+                                                 
+                                                 }
+                                                 
+                                                 .fail{/* user NOT available UnotA*/
+                                                 
+                                                 
+                                                 background: url('../images/icon/close.png') no-repeat scroll right center white !important;    
+                                                 
+                                                 }
+                                                 
+                                                 #respuesta{color:#fff;} /* color de la respuesta para checar si el usuario esta disponible*/
+                                                 
+                                                 
+                                                 .padLeft{padding-left: 3px;} /* para que tengan espacio las fotos de los seguidores*/
+                                                 
+                                                 .imageuserComent{ margin-bottom: -39px;
+                                                 margin-left: 8px;
+                                                 margin-top: 6px;}
+                                                 
+                                                 
+                                                 
+                                                 .imageCmnt{margin-bottom: -5px;  margin-right: 7px;}
+                                                 
+                                                 #QuestionContainer{height: auto; float: none;}
+                                                 
+                                                 .fixbtn{
+                                                 width:84px;
+                                                 opacity:1 !important;
+                                                 margin-top: 23px !important;
+                                                 }
+                                                 
+                                                 /*  new age*/
+                                                 
+                                                 .fiximageuser{
+                                                 border-radius: 2px;
+                                                 border-width: 0;
+                                                 
+                                                 height: 77px !important;
+                                                 width: 76px !important;
+                                                 }
+                                                 
+                                                 .structTicker{
+                                                 height: 228px;
+                                                 
+                                                 
+                                                 background-color: #444444;
+                                                 background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.9))); /* Saf4+, Chrome */
+                                                 background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)); /* Chrome 10+, Saf5.1+, iOS 5+ */
+                                                 background-image:    -moz-linear-gradient(top,rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)); /* FF3.6+ */
+                                                 background-image:     -ms-linear-gradient(top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)); /* IE10 */
+                                                 background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)); /* Opera 11.10+ */
+                                                 background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+                                                 
+                                                 
+                                                 border-radius:4px 4px 0 0;
+                                                 padding-top:34px;
+                                                 margin: 31px auto 0;
+                                                 padding-bottom: 25px;
+                                                 padding-left: 9px;
+                                                 padding-right: 9px;
+                                                 width: 942px;
+                                                 padding-left: 20px;
+                                                 padding-right: 29px;
+                                                 }
+                                                 
+                                                 .displayNameIMG{
+                                                 
+                                                 background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+                                                 color: #eee;
+                                                 font-size: 11px;
+                                                 
+                                                 height: 25px;
+                                                 margin-top: 12px;
+                                                 padding-left: 15px;
+                                                 padding-top: 10px;
+                                                 position: absolute;
+                                                 padding-bottom: 6px;
+                                                 width: 125px;
+                                                 height: auto;
+                                                 
+                                                 }
+                                                 
+                                                 .AnnContent{
+                                                 
+                                                 float: left;
+                                                 height: 224px;
+                                                 height: auto;
+                                                 margin-top: 28px;
+                                                 width: 230px;
+                                                 
+                                                 }  /* Contenedor principal de comentarios*/
+                                                 
+                                                 /******************** Contenedores de box derecho USER **************************************/
+                                                 /*  Contenedor principal*/
+                                                 .ContainerUserStatus{  
+                                                 
+                                                 min-height: 136px;
+                                                 position: relative;
+                                                 top: -4px;
+                                                 float: left;
+                                                 margin-top: 1px;
+                                                 width: 226px;
+                                                 }
+                                                 
+                                                 
+                                                 #columContentRight{ /* este es donde sera el contenido principal*/
+                                                 border-left: 1px solid #FFFFFF;
+                                                 box-shadow: -1px 0 0 #DDDDDD;
+                                                 display: inline;
+                                                 float: right;
+                                                 height: auto;
+                                                 margin-top: 22px;
+                                                 min-height: 652px;
+                                                 overflow: hidden;
+                                                 padding: 23px 23px 23px 13px;
+                                                 width: 679px;
+                                                 margin-right: -19px;
+                                                 
+                                                 }
+                                                 
+                                                 
+                                                 
+                                                 .tittleMenu{
+                                                 
+                                                 color: #444444;
+                                                 float: left;
+                                                 font-size: 14px;
+                                                 margin-bottom: 17px;
+                                                 margin-top: 14px;
+                                                 margin-left: 18px;
+                                                 text-transform: capitalize;
+                                                 
+                                                 }
+                                                 
+                                                 
+                                                 
+                                                 .hightlightTicker{
+                                                 float: none;
+                                                 height: 226px;
+                                                 margin-right: -10px;
+                                                 overflow: hidden; 
+                                                 }
+                                                 
+                                                 .nameto{
+                                                 border-left-width: 1px;
+                                                 color: #111111;
+                                                 font-size: 12px;
+                                                 margin-left: 6px;
+                                                 text-shadow: 0 1px #DDDDDD;
+                                                 }
+                                                 
+                                                 .imagefixuserown{
+                                                 margin-left: 2px;
+                                                 margin-top: -2px;
+                                                 opacity: 0.3;
+                                                 }
+                                                 
+                                                 .homeCronology{
+                                                 
+                                                 bottom: 7px;
+                                                 top: 263px;
+                                                 width: 197px;
+                                                 margin-left: 23px;
+                                                 
+                                                 }
+                                                 
+                                                 .mpost{
+                                                 height: 14px;
+                                                 margin-right: 20px !important;
+                                                 width: 94%;
+                                                 }
+                                                 
+                                                 .mpost:active{
+                                                 background: none repeat scroll 0 0 #F0F0F0;   
+                                                 
+                                                 }
+                                                 
+                                                 .npost{
+                                                 float: left;
+                                                 
+                                                 margin-top: 10px;
+                                                 
+                                                 }
+                                                 
+                                                 .fixtext{
+                                                 
+                                                 margin-right: -3px;
+                                                 }
+                                                 
+                                                 
+                                                 
+                                                 .headArtic{
+                                                 
+                                                 
+                                                 font-size: 11px;
+                                                 height: 42px;
+                                                 
+                                                 
+                                                 }
+                                                 
+                                                 .imagtit{
+                                                 margin-left: 5px;
+                                                 margin-top: 5px;
+                                                 }
+                                                 
+                                                 .titart , .name {
+                                                 color: #CA3030 ;
+                                                 float: left;
+                                                 font-weight: bold;
+                                                 margin-bottom: 12px;
+                                                 margin-left: 10px;
+                                                 margin-top: 18px;
+                                                 }
+                                                 .name{
+                                                 margin-top:-7px;
+                                                 
+                                                 }
+                                                 
+                                                 .rankstartsfixedart{
+                                                 float: right;
+                                                 
+                                                 margin-top: 13px
+                                                 }
+                                                 
+                                                 .gray{color:#999;}
+                                                 
+                                                 .gray , .titart{
+                                                 text-shadow: 0 1px #FFFFFF;
+                                                 }
+                                                 
+                                                 /*    formateando los comentarios en storyboard*/
+                                                 
+                                                 
+                                                 
+                                                 .cmntClss .UIContntComentsChat{
+                                                 
+                                                 width:  389px !important;
+                                                 
+                                                 }
+                                                 
+                                                 
+                                                 
+                                                 
+                                                 .divbord{
+                                                 
+                                                 border-right: 1px solid #ccc; 
+                                                 padding-right: 10px;
+                                                 }
+                                                 
+                                                 .leftList{
+                                                 
+                                                 
+                                                 color: #222;
+                                                 }
+                                                 
+                                                 .colorMain{
+                                                 
+                                                 color: #CA3030 !important
+                                                 
+                                                 }
+                                                 /* *************************************************************************************** */
+                                                 /* *************************************************************************************** */
+                                                 /* *************************************************************************************** */
+                                                 /* *************************************************************************************** */
+                                                 
+                                                 
+                                                 
+                                                 
+                                                 @font-face {
+                                                 font-family: 'ColaborateThinRegular';
+                                                 src: url('font/ColabThi-webfont.eot');
+                                                 src: url('font/ColabThi-webfont.eot?#iefix') format('embedded-opentype'),
+                                                 url('font/ColabThi-webfont.woff') format('woff'),
+                                                 url('font/ColabThi-webfont.ttf') format('truetype'),
+                                                 url('font/ColabThi-webfont.svg#ColaborateThinRegular') format('svg');
+                                                 font-weight: normal;
+                                                 font-style: normal;
+                                                 
+                                                 }
+                                                 
+                                                 @font-face {
+                                                 font-family: 'ColaborateLightRegular';
+                                                 src: url('font/ColabLig-webfont.eot');
+                                                 src: url('font/ColabLig-webfont.eot?#iefix') format('embedded-opentype'),
+                                                 url('font/ColabLig-webfont.woff') format('woff'),
+                                                 url('font/ColabLig-webfont.ttf') format('truetype'),
+                                                 url('font/ColabLig-webfont.svg#ColaborateLightRegular') format('svg');
+                                                 font-weight: normal;
+                                                 font-style: normal;
+                                                 
+                                                 }
+                                                 
+                                                 @font-face {
+                                                 font-family: 'ColaborateRegular';
+                                                 src: url('font/ColabReg-webfont.eot');
+                                                 src: url('font/ColabReg-webfont.eot?#iefix') format('embedded-opentype'),
+                                                 url('font/ColabReg-webfont.woff') format('woff'),
+                                                 url('font/ColabReg-webfont.ttf') format('truetype'),
+                                                 url('font/ColabReg-webfont.svg#ColaborateRegular') format('svg');
+                                                 font-weight: normal;
+                                                 font-style: normal;
+                                                 
+                                                 }
+                                                 
+                                                 @font-face {
+                                                 font-family: 'ColaborateMediumRegular';
+                                                 src: url('font/ColabMed-webfont.eot');
+                                                 src: url('font/ColabMed-webfont.eot?#iefix') format('embedded-opentype'),
+                                                 url('font/ColabMed-webfont.woff') format('woff'),
+                                                 url('font/ColabMed-webfont.ttf') format('truetype'),
+                                                 url('font/ColabMed-webfont.svg#ColaborateMediumRegular') format('svg');
+                                                 font-weight: normal;
+                                                 font-style: normal;
+                                                 
+                                                 }
+                                                 
+                                                 @font-face {
+                                                 font-family: 'ColaborateBoldRegular';
+                                                 src        : url('font/ColabBol-webfont.eot');
+                                                 src        : url('font/ColabBol-webfont.eot?#iefix') format('embedded-opentype'),
+                                                 url('font/ColabBol-webfont.woff') format('woff'),
+                                                 url('font/ColabBol-webfont.ttf') format('truetype'),
+                                                 url('font/ColabBol-webfont.svg#ColaborateBoldRegular') format('svg');
+                                                 font-weight: normal;
+                                                 font-style : normal;
+                                                 
+                                                 }
+                                                 
+                                                 /* *************************************************************************************** */
+                                                 /* *************************************************************************************** */
+                                                 /* *************************************************************************************** */
+                                                 /* *************************************************************************************** */
+                                                 
+                                                 /*  UI ARTICULOS */
+                                                 
+                                                 .article img , .cntainr_shr_art img {
+                                                 
+                                                 
+                                                 padding: 5px;
+                                                 
+                                                 }
+                                                 
+                                                 .article {
+                                                 overflow   : hidden;
+                                                 text-shadow: 0 0;
+                                                 
+                                                 }
+                                                 
+                                                 
+                                                 .wrappr_art {
+                                                 background   : rgba(255, 255, 255, 0.4);
+                                                 border-radius: 6px 6px 6px 6px;
+                                                 height       : auto;
+                                                 margin       : 46px auto;
+                                                 overflow     : auto;
+                                                 padding-top  : 6px;
+                                                 position     : relative;
+                                                 width        : 930px;
+                                                 }
+                                                 
+                                                 
+                                                 .cntainr_shr_art{
+                                                 background: url("http://localhost/BindsII/framework/css/../../framework/img/main.jpg") repeat scroll 0 0 transparent;
+                                                 -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+                                                 box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+                                                 height: auto;
+                                                 margin: 0 auto 8px;
+                                                 -ms-overflow-y: auto;
+                                                 overflow-y: auto;
+                                                 padding: 8px 16px 20px;
+                                                 width: 883px;
+                                                 overflow: hidden;
+                                                 position: relative;
+                                                 }
+                                                 
+                                                 
+                                                 .tit_art_ui{
+                                                 color: #222222 !important;
+                                                 font-size: 15px;
+                                                 text-shadow: 0 1px #FFFFFF;
+                                                 }
+                                                 
+                                                 .tit_art_ui:first-letter{
+                                                 
+                                                 text-transform:uppercase;
+                                                 
+                                                 }
+                                                 
+                                                 .top_ui{
+                                                 
+                                                 margin-top: 58px;
+                                                 }
+                                                 
+                                                 .article strong , .cntainr_shr_art strong ,   
+                                                 
+                                                 .article h1 , .cntainr_shr_art h1{
+                                                 
+                                                 font-family: 'ColaborateThinRegular',sans-serif !important;
+                                                 
+                                                 line-height: 9px;
+                                                 }
+                                                 
+                                                 
+                                                 
+                                                 .article strong , .article h1  {
+                                                 
+                                                 line-height: 50px;
+                                                 
+                                                 }
+ 

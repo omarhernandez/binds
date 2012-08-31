@@ -1,0 +1,623 @@
+/* 
+    Document   : profile
+    Created on : 08-feb-2012, 20:42:29
+    Author     : hp
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+body{
+                  background: url("../images/bg.jpg");
+                  color: #555;
+                  background-size: 100%; 
+}
+
+
+.fixlistContainer{ float: right;
+                   margin-right: -72px;
+                   margin-left: 14px;}
+
+
+.listButton{
+
+                  float: left !important;
+                  margin-top: 3px !important;
+                  margin-bottom: 10px;
+
+} /* para que todos los botones esten a x distancia de los text area*/
+
+
+
+.structContainerShare{ /* lña estructura general que contendra todos los elementos para conpartir informacion*/
+
+
+                  margin-left: 22px; 
+                  padding-left: 26px; padding-top: 22px; padding-right: 66px;
+                  padding-bottom:60px; 
+
+
+                  height: 59px!important;
+                  width: 628px; 
+                  display: none;
+
+
+}
+
+
+.fixbarOptions{
+                  margin-top: 0px; width: 750px ! important; margin-top:-1px; z-index: 100;
+}
+
+
+.structChatComnt , .cmntClss{
+                  margin-right: 16px;
+                  width: 471px !important;            
+}
+
+
+
+.hightlight{
+float: left;
+    height: auto;
+    margin-bottom: 34px;
+    margin-top: 28px;
+    width: 100%;
+}  
+
+
+
+
+.shareintxtArea{
+
+                  min-height:19px !important;
+                  width:396px !important;padding:10px;
+                  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;resize:none; 
+                  font-size: 12px; 
+                  margin-bottom: 8px;
+                  margin-top: 14px;
+                  color: #999;
+
+}
+.fixbttnComnt{
+                  float: left;
+                  margin: 3px;
+                  padding: 8px !important;
+}
+
+
+.UIInfoContainer{
+                  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
+                  border-radius: 3px 3px 0 0;
+                  -webkit-border-radius: 3px 3px 0 0;
+ 
+ 
+    float: right;
+    height: 100px;
+    margin-left: 0;
+    margin-right: -5px;
+    margin-top: 68px;
+    min-height: 200px;
+    padding: 17px 10px;
+    width: 990px;
+}
+
+.rankstar{color:#9C9B9C;}
+
+.structNameInfoProfile{ 
+
+                  /*background: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)) repeat scroll 0 0 transparent;
+                  */
+
+                  border-top-width: 4px;
+                  float: right;
+
+                  padding-bottom: 2px;
+
+
+                  height: 56px;
+                  margin-top: 15px;
+                  width: 738px;
+
+}
+
+
+.floatRight{
+                  margin-right:9px; 
+                  float:right;
+
+}
+
+.floatLeft{float:left;}
+
+
+
+
+#Sendingcoments{ 
+                  display: none;
+                  float: left; margin-top: 22px;
+                  margin-left: 38px;
+
+}
+
+.stateComent{
+
+                  float: right;
+                  height: 21px;
+                  padding-top: 10px;
+                  width: 655px;
+                  font-size: 11px;
+                  width: 100%;            
+}
+.comenty{
+                  color: #AAAAAA;
+                  margin-top: -4px;
+                
+}
+
+.comenty:hover{ opacity: 0.8; color:#555;cursor: pointer;}
+
+.comenty:active{ opacity: 1; cursor: pointer;}
+
+.fixImageShadow{
+
+                  margin-left: -3px;
+                  position: absolute;
+                  top: 279px;
+
+
+}
+
+.UIStatusPage{
+                  color: #444444;
+                  font-size: 11px;
+                  font-weight: bold;
+                  margin-left: -2px;
+                  text-transform: uppercase;
+}
+
+.containerstatusPage{
+                  border-bottom: 1px dotted #CCCCCC;
+                  padding: 10px;
+
+}
+
+.containerstatusPage:hover{
+
+                  background: #eee;
+
+}
+
+.containerstatusPage:active{
+
+                  background: #ccc;
+
+}
+
+.countStatus{
+                  color: #CA3030 !important;
+                  font-size: 11px;  
+                  padding-bottom: 5px;
+
+}
+
+.Structinfopagestatus{
+                  width: 178px;
+                  height: 50px;
+                  margin-top: -20px;
+                  float: right;}
+
+/* *************************************************************************** */
+/* *************************************************************************** */
+/* ************************ TOOLTIP ****************************************** */
+/* *************************************************************************** */
+/* *************************************************************************** */
+
+#tooltip {
+                  background:   rgba(0, 0, 0, 0.8);
+                  border-radius: 5px 5px 5px 5px;
+                  -webkit-border-radius: 5px 5px 5px 5px;
+                  color: #FFFFFF;
+                  height: 63px;
+                  min-width: 130px;
+                  overflow: visible;
+                  padding: 5px 20px 5px 5px;
+                  z-index: 1000000;
+                  transition: all 0.3s ease-in-out;
+
+}
+
+.tip{
+                  position: absolute;
+                  background-image: url("../images/icon/dn.png");
+                  background-position: 25px bottom;
+                  background-repeat: no-repeat;
+                  height: 80px;
+                  margin-left: -27px;
+                  margin-top: -60px;
+                  moz-border-radius:2px; border-radius:2px; -webkit-border-radius:2px; 
+                  z-index: 314159266;
+                  background-size: 14px auto;
+                  transition: all 0.3s ease-in-out;
+}
+
+#contentComentThread{
+                  margin-left: 30px;
+}
+
+.showcomentreply{
+                  margin-left: 12px;
+                  margin-top: 64px; 
+                  position: absolute;  
+                  display: none;   
+}
+
+
+.containerImage{
+
+                  border-radius: 6px 6px 6px 6px;
+                  -webkit-border-radius: 6px 6px 6px 6px;
+                  float: left;
+                  height: 66px;
+                  margin-left: 5px;
+                  margin-top: 4px;
+                  overflow: hidden;
+                  width: 66px;
+}
+
+#showcomentreply{display:none;}
+
+.UiMSG p img{
+
+
+}
+
+.colorY{
+                  color: #EDB06D;
+
+}
+
+.containerDescription div , .formatText  ,  .colorY{
+                  text-shadow: 0 1px #FFFFFF;
+                  filter: dropshadow(color=#ffffff, offx=0, offy=1);
+}
+
+
+.containerDescription div{
+
+                  width: 90%;
+
+}
+
+
+.trip{
+                  font-family: "ARr" !important; 
+
+                  font-size: 15px !important;
+}
+
+@font-face {
+                  font-family: "ARr";
+                  font-style: normal;
+                  font-weight: normal;
+                  src: url("font/0a18f2246a33b2a16e65161c65816ca4.eot") format("embedded-opentype"),
+                                    url("font/3dc90509beb236ae6782ed2ad91c0ecd.woff") format("woff"), 
+                                    url("font/021d3ff2e6e4446310cc2e705518d694.ttf") format("truetype");
+}
+/*
+#colleftFeed{
+   
+     margin-left: -900px;
+            opacity:0;
+}*/
+
+#colrightFeed  , #colleftFeed{
+
+float: left;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 498px;
+}
+
+
+#colleftFeed{
+
+margin-left: 5px;
+    margin-right: 3px;
+    padding-left: 3px;
+  
+}
+
+#contentMenuHead{
+                  margin-top: 0;
+
+}
+
+.left{
+                  float:left;
+}
+
+.view{
+                  margin-top: -2px;
+
+}
+
+.view:hover{
+                  opacity:.9;
+                  cursor: pointer;
+                  color:  #666; 
+
+}
+
+/*  left bar style*/
+
+
+.verticalBar {
+                  margin-left: 2px;
+                  width: 100%;
+
+}
+
+.verticalBar li {
+
+                  float: left;
+                  margin-left: 3%;
+                  width: 89%
+
+}
+
+.UsrStat{
+                  ;
+                  width: 40% !important;
+}
+
+.ico.image:before {
+                  content: "";
+                  position: relative; 
+                  top: -6px; 
+                  float:right;
+                  padding-left:5px; 
+
+                  width: 16px; 
+                  height: 22px; 
+                  margin: 0 0.5em 0 0; 
+                  background: url(../images/icon/right.png) 99px 99px  no-repeat;
+                  opacity: 0.7;
+}
+
+
+.image.right:before  { background-position: 5px 4px}
+
+
+#verticalMenu{
+                  background: -moz-linear-gradient(rgba(255, 255, 255, 0.95) 0px, rgba(255, 255, 255, 0.85) 95px) repeat scroll 0 0 transparent;
+                  box-shadow: 2px 0 2px rgba(34, 25, 25, 0.2);
+                  -webkit-box-shadow: 2px 0 2px rgba(34, 25, 25, 0.2);
+                  cursor: pointer;
+                  height: 100%;
+                  margin-top: 68px;
+                  position: absolute;
+                  width: 266px;
+                  height: auto;
+}
+
+.infouserMenu{
+                  margin-left: 16px;  
+
+}
+
+#containerImageUserView{
+
+                  margin-bottom: 18px;
+
+}
+
+.containerDescription{
+
+                  height: auto;
+                  overflow-y: auto;
+                  width: 93%;
+
+}
+
+
+.mainContainer{
+
+    background: url("../images/bg/bg-header.png") repeat scroll 0 0 transparent;
+    height: auto;
+    margin: -26px auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+       overflow: hidden;
+    padding-right: 5px;
+    width: 1007px;
+}
+
+
+/*************************************************************/
+
+.ui_show_article{
+
+                  float: left;
+                  margin-top: 1px;
+                  padding-bottom: 11px;
+                  width: 922px;
+
+}
+
+.ui_show_article_cmnt{
+
+                  background: none repeat scroll 0 0 #EEEEEE;
+                  border-top: 1px solid #FFFFFF;
+                  box-shadow: 0 -1px #CCCCCC;
+                  -webkit-box-shadow: 0 -1px #CCCCCC;
+                  float: left;
+                  height: auto;
+                  margin-left: 1px;
+                  margin-top: 18px;
+                  width: 98%;     
+
+
+
+}
+
+.ui_show_state_art{
+
+                  float: left;
+                  font-size: 11px;
+                  margin-top: 15px;
+                  width: 100%;
+
+}
+
+
+
+/***** agregando nuevo storyboard***/
+
+
+
+
+.nameUserStoryboard{
+
+                  float: left;
+                  font-size: 24px;
+                  font-weight: bold;
+                  margin-left: 19px;
+                  margin-top: 34px;
+                  color: #333;
+
+}
+
+
+.nameUserStoryboard:first-letter {
+  text-transform: uppercase;
+}
+
+#idstoryBoardContainer{  
+                  
+                  border-bottom: 1px solid #EEEEEE;
+                  border-radius: 3px 3px 0 0;
+                  -webkit-border-radius: 3px 3px 0 0;
+                  height: auto;
+                  margin: -15px auto 0;
+                  overflow: hidden;
+                  padding-top: 17px;
+                  margin-left: -12px;
+                  padding-bottom: 16px;
+                  padding-left: 14px;
+                  padding-right: 18px;
+                  width: 980px;
+}
+
+
+/* para el contenedor de la informacion o feed*/
+
+#ContainerImageFollowers{ float: left;
+                          margin-left: 31px;
+                          margin-top: 28px;
+                          overflow: hidden;
+                          padding-bottom: 5px;
+                          width: 202px;
+
+}
+
+#ContainerImageFollowers a{
+                  border: 1px solid #FFFFFF;
+                  border-radius: 20px 20px 20px 20px;
+                  -webkit-border-radius : 20px 20px 20px 20px;
+                  box-shadow: 0 0 1px #CCCCCC;
+                  -webkit-box-shadow: 0 0 1px #CCCCCC;
+                  float: left;
+                  height: 26px;
+                  margin-right: 6px;
+                  overflow: hidden;
+
+
+}
+
+#sucribe{
+                  padding-left: 19px;   
+}
+
+
+.fixposSuscrib{
+background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid #EEEEEE;
+    float: none;
+    height: 53px;
+    margin-bottom: 9px;
+    margin-left: -13px;
+    padding-right: 11px;
+    padding-top: 6px;
+    width: 985px !important;
+}
+
+.statStoryboard, .whosStoryboard{
+
+                  color: #222;
+                  float: left;
+                  font-size: 12px;
+                  margin-top: 15px;
+
+}
+
+.statStoryboard li , .whosStoryboard li{
+
+                  float: left;
+
+                  margin-left: 29px;
+                  text-shadow: 1px 1px #FFFFFF;
+                  filter: dropshadow(color=#ffffff, offx=1, offy=1);
+}
+
+.whosStoryboard{
+
+                  margin-right: 21px;        
+                  float:right !important;               
+
+}
+
+.starts{
+                  float: left;
+                  margin-left: -415px;
+                  margin-top: 63px;
+
+}
+
+.Uiphoto{
+                  text-align: center; 
+}
+
+.des_photo{
+                   color: #333333;
+    font-size: 21px !important;
+    margin-top: 24px;
+    text-shadow: 1px 1px #FFFFFF;
+}
+
+.p_photo{
+                  
+  color: #333333;
+    font-size: 16px !important;
+    margin-bottom: 16px;
+    margin-top: 14px;
+                  
+                  
+}
+
+.sf_sb_top {
+    border-color: transparent transparent rgba(0, 0, 0, 0.7);
+    border-style: solid;
+    border-width: 0 10px 10px;
+    height: 0;
+    left: 50px;
+    position: absolute;
+    top: -10px;
+    width: 0;
+}

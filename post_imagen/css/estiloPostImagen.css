@@ -1,0 +1,105 @@
+#barrita{
+	border-bottom: 1px solid #DDDDDD;
+	box-shadow: 0 1px 0 #FFFFFF;
+	position: relative;
+	background-color: white;
+	left: -10px; 
+	width: 200px;
+}
+
+#barrita2{
+
+    border-bottom: 1px solid #DDDDDD;
+    box-shadow: 0 1px 0 #FFFFFF;
+    position: relative;
+    background-color: white;
+    left: 331px; 
+    width: 200px;
+    top: -18px;
+}
+
+#separador p{
+    position: relative;
+    left: 256px;
+    width: 11px; 
+	top: -9px;
+}
+
+.areatext{
+    font-family: inherit;
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #A4A2A2;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px rgba(34, 25, 25, 0.15) inset, 0 1px rgba(255, 255, 255, 0.8);
+    resize : none;
+}
+
+#charLeft{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 24px;
+}
+
+.frm_upload{      
+	display: none;
+}
+
+#tablafromurl{
+	margin-bottom: 5px;
+}
+
+#tablafromurl tr{
+	margin-bottom: 30px;
+}
+
+#errorPicLoad{
+	margin-left: 11px; 
+	display:none; 
+	position:absolute
+}
+
+#fromURL{
+	position: absolute;
+	top: 58px;
+}
+
+#sep{
+	margin-bottom: 8px;
+}
+
+#imageProc{
+	margin-left: 202px;
+}
+
+#picLoadContainer{
+	float: left;
+	padding: 5px;
+
+}
+
+#descarea{
+	position: relative; 
+	left: -42px; 
+	top: 12px;
+}
+
+#desPicContainer{
+	float: right;
+}
+
+#charLeft{
+	position:relative; 
+	top: 109px; 
+	left: 238px; 
+	width: 286px;
+}
+
+#bttnpost{
+	position:relative; 
+	left: 42px; 
+	top: 91px;
+	margin-bottom:30px;
+}
+
+#picapic{
+	display: none;
+}

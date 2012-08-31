@@ -1,0 +1,413 @@
+/* 
+    Document   : buttons
+    Created on : 09-feb-2012, 0:04:31
+    Author     : hp
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+.fixchannel{ 
+  background: -moz-linear-gradient(center top , #EB5367, #E04751 50%, #DE404A 50%, #D43638) repeat scroll 0 0 transparent;
+  background-color: #444444;
+  background-image: -webkit-gradient(center top , #EB5367, #E04751 50%, #DE404A 50%, #D43638); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(center top , #EB5367, #E04751 50%, #DE404A 50%, #D43638); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(center top , #EB5367, #E04751 50%, #DE404A 50%, #D43638); /* FF3.6+ */
+  background-image:     -ms-linear-gradient(center top , #EB5367, #E04751 50%, #DE404A 50%, #D43638); /* IE10 */
+  background-image:      -o-linear-gradient(center top , #EB5367, #E04751 50%, #DE404A 50%, #D43638); /* Opera 11.10+ */
+ 
+
+
+    border-color: #AD0303;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF !important;
+    font-weight: normal;
+    height: 20px;
+    margin-top: 6px;
+    text-shadow: 1px 1px #AD0303;
+    
+    width: 166px;
+}
+
+
+.blueB{
+                  
+          
+
+  background-color: #444444;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#34BFF3), to(#074AA2)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #34BFF3, #074AA2); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(top, #34BFF3, #074AA2); /* FF3.6+ */
+  background-image:     -ms-linear-gradient(top,#34BFF3, #074AA2); /* IE10 */
+  background-image:      -o-linear-gradient(top, #34BFF3, #074AA2); /* Opera 11.10+ */
+  background-image:         linear-gradient(to bottom, #34BFF3, #074AA2);
+
+
+
+
+    border-color: #34BFF3 rgba(0, 0, 0, 0.05) #003C8B;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px #60CBFA inset, 0 0 0 4px rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: 0 1px #60CBFA inset, 0 0 0 4px rgba(255, 255, 255, 0.2);
+
+    color: #FFFFFF;
+    float: left;
+    font-size: 13px;
+    margin-left: 127px;
+    margin-top: 46px;
+    padding: 14px 45px;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
+                  
+}
+
+ 
+.buttonPurp{
+     
+     background: #374B6C;
+    background-image: url("../images/botton/bgbblue.png");
+    color: #FFFFFF !important;
+    float: right;
+    font-weight: bold;
+    line-height: 33px;
+    margin-right: 6px;
+    margin-top: 0;
+    text-shadow: 0 1px 0 #171B3E !important;
+    border-radius:2px;
+    border-width: 0 !important;
+   margin-top: -32px !important;  
+}
+
+.buttonPurp:active{background: #283C5F !important;}
+
+.buttonOrange{
+      font-family: arial;
+    font-size: 11px !important;
+     background: #EAA587;
+     background-image: url("../images/botton/bgboran.png");
+    border: 1px solid #B7450F;
+    box-shadow: 0 1px 0 #FFA455 inset;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 33px;
+    margin-right: 6px;
+    margin-top: 0;
+    padding: 0px 14px 0 !important;
+    text-shadow: 0 -1px 0 #A54726;
+    border-radius:4px; 
+  
+     
+}
+
+.buttonOrange:hover{
+     cursor: pointer;
+      
+     
+}
+
+.buttonOrange:active{
+  background: #A54726;   
+ box-shadow: 0 1px 0 #A54726 inset;
+}
+.fixGray:active{
+ background-image: -moz-linear-gradient(center top , #FFFFFF 0pt, #eeeeee 100%);    
+}
+
+.fixGray{
+     margin-left: 24px;
+ border-color: #CCCCCC #CCCCCC #AAAAAA !important;
+    box-shadow: 0 0 1px #FFFFFF inset;
+    float: right;
+    font-size: 11px;
+    margin-top: 3px;
+ 
+}
+
+
+ /* boton gris*/
+  .buttonGray{
+    
+background-color: #F5F5F5;
+    background-image: -webkit-linear-gradient(center top , #FFFFFF 0pt, #E0E0E0 100%);
+    background-image: -moz-linear-gradient(center top , #FFFFFF 0pt, #E0E0E0 100%);
+    background-image: -o-linear-gradient(center top , #FFFFFF 0pt, #E0E0E0 100%);
+    background-image: -ms-linear-gradient(center top , #FFFFFF 0pt, #E0E0E0 100%);
+    background-image: linear-gradient(center top , #FFFFFF 0pt, #E0E0E0 100%);
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    color: #666666 !important;
+    cursor: pointer;
+    font-size: 11px;
+    padding: 8px;
+    text-align: center;
+    text-shadow: 1px 1px #FFFFFF;
+    width: auto;
+        
+   }
+   
+   .buttonGray:hover{
+        
+      background-color: #efefef;  
+        
+   }
+   
+    .buttonGray:active{
+        
+      background-color: #ccc;  
+        
+   }
+   
+   
+   
+   
+  /*    boton verde!   */
+
+.fixGreen{
+      margin-right: 6px;
+    margin-top: 0;
+padding: 1px 16px 0;   
+float:right;
+line-height: 33px;
+font-weight:bold;
+ background:#B6DB9F; color:#406A24;text-shadow: 0 1px 0 #d8f4aD;
+ border:1px solid #88b46D;     
+    font-size: 10px; 
+}
+
+.fixGreen:hover{
+     
+  background:    #A8D48D; 
+     
+}
+
+.fixGreen:active{
+     
+  background:    #88b46D; 
+     
+}
+
+/* boton zul!*/
+.fixBlue{
+  background: none repeat scroll 0 0 #2C8EFA;
+    border: 1px solid #1C6EDA;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    float: right;
+    font-weight: normal;
+    line-height: 33px;
+    margin-right: 6px;
+    margin-top: 0;
+    padding: 1px 16px 0 !important;  
+}
+
+.fixBlue:hover{
+     cursor: pointer;
+     background: #1C7EeA;
+}
+
+
+.fixBlue:active{
+     
+     background: #1C6EDA;
+} 
+
+
+
+ /* boton rojo */
+ 
+ 
+ /*  boton rojo*/
+
+
+.fixRed{
+     
+      background: none repeat scroll 0 0 #D14836;
+    border: 1px solid #B13816;
+    color: #FFFFFF;
+    float: right;
+    font-size: 10px;
+    font-weight: inherit;
+    line-height: 33px;
+    margin-right: 6px;
+    margin-top: 0;
+    padding: 1px 16px 0;
+    text-shadow: 0 1px 0 #B13816; 
+    margin-top: -32px; 
+}
+
+
+.fixRed:hover{
+     
+    background:  #c13836; 
+     
+}
+
+.fixRed:active{
+     
+   background:  #B13816; 
+     
+}
+
+.bicon{ /* esta clase es usasa para el icono de + dentro los botones*/
+     
+        float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 0;
+    margin-right: 9px; 
+}
+
+
+.buttonGreen:hover{
+          cursor: pointer;
+}
+
+.buttonGreen:active{
+     
+
+      background-image: -moz-linear-gradient(center top , #6FaF2D, #63A62F);
+}
+
+.buttonGreen{
+     -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #7FBF4D;
+    background-image: -moz-linear-gradient(center top , #7FBF4D, #63A62F);
+    border-color: #63A62F #63A62F #5B992B;
+  
+    box-shadow: 0 1px 0 0 #96CA6D inset;
+
+}
+
+.button{
+  border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF !important;
+    float: right;
+    font-size: 12px;
+    margin-right: 25px;
+    padding: 8px 38px 8px 34px;
+    text-align: center;
+ 
+}
+
+
+.buttonRed{
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.35) inset, 0 10px 20px rgba(255, 255, 255, 0.12) inset, 0 -10px 30px rgba(0, 0, 0, 0.12) inset;
+    color: #FFFFFF !important;
+    display: inline-block;
+    float: left;
+    line-height: 22px;
+    margin-bottom: 18px;
+    margin-top: 5px;
+    padding: 8px 30px;
+    text-align: center;
+    text-shadow: -1px -1px rgba(0, 0, 0, 0.25);
+}
+
+
+.buttonRed:hover {
+    background: -moz-linear-gradient(center top , #EA5D6E, #E3535D 50%, #E04A54 50%, #D63E40) repeat scroll 0 0 transparent;
+    border-color: #AD0303;
+    cursor: pointer;
+}
+
+.buttonRed:active{
+     
+    background:  #D84145;
+     
+}
+
+
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.button-big, .button-small {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.35) inset, 0 10px 20px rgba(255, 255, 255, 0.12) inset, 0 -10px 30px rgba(0, 0, 0, 0.12) inset;
+    color: rgba(255, 255, 255, 0.6) !important;
+    display: inline-block;
+    font-family: 'Istok Web',sans-serif;
+    font-weight: bold;
+    line-height: 22px;
+    margin-bottom: 18px;
+    margin-top: 5px;
+    padding: 14px 30px 13px;
+    text-align: center;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.25);
+}
+.button-small {
+    font-size: 11px;
+    padding: 6px 12px 5px;
+}
+.button-big:hover, .button-small:hover {
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(255, 255, 255, 0.5) inset, 0 10px 20px rgba(255, 255, 255, 0.2) inset, 0 -10px 20px rgba(0, 0, 0, 0.12) inset;
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+}
+.button-big:active, .button-small:active {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3) inset, 0 10px 20px rgba(0, 0, 0, 0.08) inset;
+}
+.rounded3 {
+    border-radius: 3px 3px 3px 3px;
+}
+.rounded5 {
+    border-radius: 5px 5px 5px 5px;
+}
+.rounded10 {
+    border-radius: 10px 10px 10px 10px;
+}
+.rounded99 {
+    border-radius: 99px 99px 99px 99px;
+}
+.salmon {
+    background: none repeat scroll 0 0 #D5383C;
+}
+.purple {
+    background: none repeat scroll 0 0 #6B63CF;
+}
+.orange {
+    background: none repeat scroll 0 0 #F76B16;
+}
+.blue {
+    background: none repeat scroll 0 0 #2184AB;
+}
+.lightblue {
+    background: none repeat scroll 0 0 #5B98BF;
+}
+.red {
+    background: none repeat scroll 0 0 #C7322C;
+}
+.green {
+    background: none repeat scroll 0 0 #70A726;
+}
+.teal {
+    background: none repeat scroll 0 0 #26A77B;
+}
+
+.blue-ui {
+  background-color: #444444;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#34BFF3), to(#074AA2)); /* Saf4+, Chrome */
+background-image: -webkit-linear-gradient(top, #34BFF3, #074AA2);
+
+  background-image: -moz-linear-gradient(top, #34BFF3, #074AA2);
+  background-image: -o-linear-gradient(top, #34BFF3, #074AA2);
+  background-image: -ms-linear-gradient(top, #34BFF3, #074AA2);
+  background-image: linear-gradient(top, #34BFF3, #074AA2);
+  -image -image -image border-color: #34BFF3 rgba(0, 0, 0, 0.05) #003C8B;
+  border-radius: 3px 3px 3px 3px;
+
+  -webkit-box-shadow: 0 1px #60CBFA inset, 0 0 0 3px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 1px #60CBFA inset, 0 0 0 3px rgba(255, 255, 255, 0.2);
+  color: #FFFFFF !important;
+  height: 38px;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+}

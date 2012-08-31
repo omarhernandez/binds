@@ -1,0 +1,25 @@
+.hiddenType{overflow: hidden; width: 123px; height: 35px;  padding-top: 6px; float: right; margin-bottom: 0px;  }
+
+.SI-FILES-STYLIZED label.cabinet
+{
+     width: 125px !important; height: 64px; padding-top: 1px; margin-top: -28px;    margin-bottom: 20px;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.SI-FILES-STYLIZED label.cabinet input.file
+{   cursor: pointer;
+    position: relative;
+  
+ 
+    opacity: 0;
+    -moz-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+
+.SI-FILES-STYLIZED .label.cabinet{
+ 
+}
+

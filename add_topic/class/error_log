@@ -1,0 +1,2 @@
+[18-May-2012 04:29:56] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/business/public_html/binds/class/class.php on line 1495
+[18-May-2012 04:30:15] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/business/public_html/binds/class/class.php on line 1495

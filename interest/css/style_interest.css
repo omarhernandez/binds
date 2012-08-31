@@ -1,0 +1,10 @@
+
+.structContainerIimage {
+    border: 1px solid #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 1px 1px 1px #CCCCCC;
+    float: left;
+    height: 128px;
+    margin-top: 1px;
+    overflow: hidden;
+}

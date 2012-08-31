@@ -1,0 +1,93 @@
+#barraLeft{
+	border-bottom: 1px solid #DDDDDD;
+	box-shadow: 0 1px 0 #FFFFFF;
+	position: relative;
+	background-color: white;
+	left: -10px; 
+	width: 200px;
+}
+
+#barraRi{
+
+    border-bottom: 1px solid #DDDDDD;
+    box-shadow: 0 1px 0 #FFFFFF;
+    position: relative;
+    background-color: white;
+    left: 331px; 
+    width: 200px;
+    top: -18px;
+}
+
+#separadorV p{
+    position: relative;
+    left: 256px;
+    width: 11px; 
+	top: -9px;
+}
+
+.areatext{
+    font-family: inherit;
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #A4A2A2;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px rgba(34, 25, 25, 0.15) inset, 0 1px rgba(255, 255, 255, 0.8);
+    resize : none;
+}
+
+#tablaVideofromurl{
+	margin-bottom: 5px;
+}
+
+#tablaVideofromurl tr{
+	margin-bottom: 30px;
+}
+
+#errorVidLoad{
+	margin-left: 11px; 
+	display:none; 
+	position:absolute
+}
+
+#videoFromURL{
+	position: absolute;
+	top: 58px;
+}
+
+#sepVid{
+	margin-bottom: 8px;
+}
+
+#vidInput{
+	margin-left: 202px;
+}
+
+#picLoadContainer{
+	float: left;
+}
+
+#desVidContainer{
+	float: right;
+}
+
+#charLeftV{
+	left: 622px; 
+	top: 110px;
+	position: absolute;
+	font-size: larger;
+	
+}
+
+#videoDisplay{
+	position: relative;
+	display: none;
+}
+
+#bttnVpost{
+	margin-left: 0px; 
+	margin-right: 208px; 
+	margin-top: 29px;
+}
+
+.video{
+	z-index: 1;
+}

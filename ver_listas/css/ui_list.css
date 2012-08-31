@@ -1,0 +1,67 @@
+																							#columContentRight{
+																							
+																							
+																							width        : 100%;
+																							background   : #f2f2f2;
+																							
+																							
+																							}        
+																							
+																							
+																							
+																							.content_info_user{
+																							background   :  rgba(255, 255, 255, 0.75);
+																							margin-top   : 25px;
+																							
+																							
+																							}
+																							
+																							.image_stat{
+																							
+																							float        : right; margin-left: 6px; margin-top: 3px; color: #555;  font-size: 12px;
+																							
+																							}
+																							
+																							
+																							.leftlist{
+																							
+																							float        :left;
+																							
+																							}
+																							
+																							
+																							
+																							
+																							
+																							.list_data{
+																							color        : #333333;
+																							font-size    : 31px !important;
+																							margin-bottom: 15px;
+																							margin-top   : 43px;
+																							padding      : 40px 0;
+																							text-align   : center;
+																							text-shadow  : 1px 1px #FFFFFF;
+																							width        : 100%;
+																							}
+																							
+																							
+																							.structChatComnt, .cmntClss {
+																							float        : left;
+																							margin-left  : 1px;
+																							width        : 468px !important;
+																							}
+																							
+																							.UiMSG {
+																							height       : auto;
+																							line-height  : 18px;
+																							margin-left  : 1px;
+																							overflow-x   : hidden;
+																							overflow-y   : auto;
+																							text-align   : center;
+																							text-shadow  : 0 1px #FFFFFF;
+																							width        : 462px;
+																							}
+																							
+																							.strctChatResponse {
+																							width        : 449px !important;
+																							}

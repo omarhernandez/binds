@@ -1,0 +1,44 @@
+/* 
+    Document   : articulo_style
+    Created on : 09-mar-2012, 15:25:04
+    Author     : hp
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+     display: block;
+}
+
+
+body{
+                   font: 12px/140% "Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;
+}
+
+.titleApp{  /* UI del titulo "CREAR ARTICULO "*/
+      color: #BBBBBB;
+    font-size: 20px;
+    margin-left: 1px;
+    text-transform: uppercase;
+}
+
+.containerArticle{ /* Contenedor del todos los elementos de la app*/
+     width: 887px;height:600px; margin-bottom: 34px; 
+}
+
+.UIsubtitle{color: #BBBBBB;} /* UI para los subtitulos "titulo(opcional) etc"*/
+
+.inputtitle{ height: 32px;   width: 370px; margin-bottom: 29px;} /* input del titulo */
+
+.textAreaArticle{width: 654px; height: 600px; } /* esto es para cuando se inicie la app aparesca con este tamaño y despues se formate al del JS*/
+
+
+.maincontainerArt{
+                  
+                      padding-top: 27px;
+}
