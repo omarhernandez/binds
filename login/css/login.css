@@ -229,21 +229,19 @@ position:absolute;
  /*  mensajes que son mostrados en inicio*/
  
  .contentMessage1{
-color: #FFFFFF;
-    font-size: 18px;
+ color: rgba(255, 255, 255, 0.7);
+    font-family: helvetica;
+    font-size: 12px;
     height: 150px;
     left: -94px;
-    line-height: 100%;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
     position: absolute;
     text-align: center;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
-    text-transform: uppercase;
-    top: 201px;
+    top: 191px;
     width: 502px;
-    font-family: 'ColaborateThinRegular',sans-serif !important;
       
  }
  
@@ -339,3 +337,14 @@ color: #FFFFFF;
    
 }
 
+.quote_snd{
+ color: white;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: -35px;
+    margin-top: 32px;
+    padding-bottom: 11px;
+    text-align: center;
+    width: 578px;
+}

@@ -53,11 +53,11 @@
 <div class="logo_"> </div>
 
 
-                                                                              Conoce gente con intereses similares a ti  y  comparte tu pasion por lo que haces.
+                                                                             binds is a plataform that connects people through interest and heavy building  data network.
 
                                                                                           <br />   <br />
-                                                                                          <span  class="contentMessage2 NotextTrans">
-                                                                                 binds es un servicio que conecta a personas a traves de intereses y ayuda construyendo una red de informacion .
+                                                                                          <span  class="contentMessage2 NotextTrans quote_snd">
+                                                                                 We want change the way you manage and share your information throught interest.
                                                                                           </span>   
                                                                         </div>
 
