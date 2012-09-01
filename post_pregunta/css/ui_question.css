@@ -1,0 +1,21 @@
+
+textarea {
+                  
+                    font: 12px/140% "Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;
+                    min-height:  38px;
+                     padding: 7px;
+}
+
+.ques_add_ , descarea{
+ border-color: #AAAAAA #DDDDDD #DDDDDD;
+    border-style: solid;
+    border-width: 1px;
+ color: #919B9C;
+    height: 22px;
+    overflow: hidden;
+    width: 415px;
+}
+
+.selectedarea{
+                  color:#333;
+}

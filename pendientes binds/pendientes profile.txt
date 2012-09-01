@@ -1,0 +1,33 @@
+
+profile 
+
+pendientes                   descripcion
+ 
+destacados ---------------------------------------------------------------------------------------- ok pendiente meter en                                                                                                                               div para mejorar la animacion y contar votos ------  4 horas
+
+ver completo -----------------------------------------------------------------------------------------------------------------------  4 horas 
+
+fix css menu desplegable ( acomodar en header) -------------------------------------------------------------------------------------  4 horas
+
+fix a lista de intereses 
+
+fix scroll bottom request ajax ( doble publicacion )     ------------------------------------ ----- ok
+
+reloj de imagen fix , no aparece ------------------------------------------------------------------ ok
+
+overflow en columnas usuario 7 etc ---------------------------------------------------------------- ok
+
+eliminar los iconos de la barra lateral ----------------------------------------------------------- ok
+
+fix comentarios articulos no aparece lateral.  ---------------------------------------------------- ok
+
+fix al dar drop user y follow user ( checar cambio de clase de boton y los followers )------------- ok
+----------------------------------------------------------------------------------------------------------------
+
+cabecera
+
+visitas , rank/ popularidad , suscriptores , suscripciones/ a quien estoy suscrito , founder , mayor 
+
+, top 10 activos ,  MAYOR PORST EN DERECHA 	, (gamificarlo un poco ) , 
+
+----------------------------------------------------------------------------------------------------------------- 

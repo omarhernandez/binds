@@ -1,0 +1,340 @@
+/* 
+    Document   : login
+    Created on : 15-ene-2012, 15:50:01
+    Author     : hp
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/* Este es el Div de la pagina index , la principal para logearse , este es el contenedor de la informacion */
+
+body{
+     
+  background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("../../images/bg.jpg");
+    background-origin: padding-box;
+    background-position: 4px -8px;
+    background-repeat: repeat;
+    background-size: 100% auto;
+    overflow-y: hidden;
+}
+
+
+.buttonAcces{
+ font-weight: normal !important;
+    margin-top: -54px !important;
+    padding: 21px 7px 18px 41px !important;
+    right: 34px;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.5) !important;
+    width: 181px;
+}
+
+#ContainerInformation{
+ 
+     height:100%;width:100%;    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1);   -webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1);
+     margin-top:-1px; 
+     
+ 
+
+
+
+}
+/* div que contiene a toda la pagina de logeo*/
+#WrapperInformation{
+ height: 533px;
+    left: 50%;
+    margin-left: -430px;
+    margin-top: -230px;
+    position: absolute;
+    top: 36%;
+    width: 960px;
+     
+}
+/* li que contiene a los input para que floten a la izquierda*/
+.listForm{ float:left; margin-right:2px; }
+
+
+/* Estilos para los input de login*/
+.inputStyle{
+       border-right: 1px solid #43698F;
+          border-color:rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.4)  rgba(0, 0, 0, 0.4);
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #333333;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    padding: 7px 6px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.2), 0 6px 3px -5px rgba(0, 0, 0, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.2), 0 6px 3px -5px rgba(0, 0, 0, 0.5) inset;
+    font-size: 11px;
+    height: 14px;
+    width: 120px;
+    color:#999;
+    margin-right:4px;
+}
+/* para que cuando se haga focus en un input tenga el efecto de brillar*/
+.inputStyle:focus{
+       color:#333;
+     box-shadow:0 1px 0 0 rgba(255, 255, 255, 0.2), 0 6px 3px -5px rgba(0, 0, 0, 0.2) inset, 0 0 25px -3px rgba(255, 255, 255, 0.6);
+     -webkit-0 1px 0 0 rgba(255, 255, 255, 0.2), 0 6px 3px -5px rgba(0, 0, 0, 0.2) inset, 0 0 25px -3px rgba(255, 255, 255, 0.6);
+}
+
+/* div que conteine al login en index*/
+#formContainer{ 
+                  
+                  
+   
+     
+    float: right;
+    height: 17px;
+    padding: 25px;
+    position: relative;
+    width: 98%;
+    z-index: 1;
+
+}
+
+
+/* BOTONES!!!!!!!!!!!!!!!!!!!!!!*/
+
+.button{
+      
+  
+   background:  url("../images/botton/bgbtn.gif") repeat-x scroll 0 0 #DDDDDD;  
+    background: -moz-linear-gradient(center top , #F5F5F5, #DEDEDE) repeat scroll 0 0 transparent;
+    background: -webkit-linear-gradient(center top , #F5F5F5, #DEDEDE) repeat scroll 0 0 transparent;/* Chrome,Safari4+ */
+    background: -o-linear-gradient(center top , #F5F5F5, #DEDEDE) repeat scroll 0 0 transparent; /* Opera 12+ */
+    background: linear-gradient(center top , #F5F5F5, #DEDEDE) repeat scroll 0 0 transparent;; /* W3C */
+   
+    
+    border: 1px solid #bbb;
+    color: #555;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    padding: 0 10px;
+    text-shadow: 0 1px 0 #FFFFFF;
+     border-radius: 2px;
+     -webkit-border-radius: 2px;
+    text-decoration: none;
+   }
+   
+   a.button:hover{
+    background: -moz-linear-gradient(center top , #FFFFFF, #E8E8E8) repeat scroll 0 0 transparent;
+    background: -webkit-linear-gradient(center top , #FFFFFF, #E8E8E8) repeat scroll 0 0 transparent;
+    background: -op-linear-gradient(center top , #FFFFFF, #E8E8E8) repeat scroll 0 0 transparent;
+  
+    text-decoration: none;
+   cursor:pointer;
+   
+   }
+   
+    a.button:active{
+    background: #DEDEDE;
+    color: #222;
+ 
+   
+   }
+   
+   
+ 
+   
+   /* contenedor de los input se SING UP*/
+   .ContainerFormInputSingup{width:277px; height: 237px !important; float:right; margin-top: 225px;
+   }
+   
+   
+   .formSingUp{
+        
+        padding: 20px;
+   right:10px;
+    bottom:  35px;
+position:absolute; 
+   top: 229px; width: 224px; height: 161px;
+   
+   }
+   
+   .FixinputForm{
+        margin-bottom:8px; 
+        width: 225px;
+        height: 21px;
+       
+   }
+   
+   .Begin{
+        
+      
+    float:right;     
+     
+        
+   }
+   
+   /* para que el nuevo boton aparesca posicionado correctamente " el boton de registrar despues de la sanimaciones"*/
+   
+   .fixNewButton{  float: none;
+    margin-left: 112px;
+    margin-top: 222px;}
+   
+   
+   /* el ID del boton transparente para pasar al siguiente form */
+   #NextForm{
+                     
+    margin-left: 25px;
+    margin-top: -12px;
+                     
+   }
+   
+ 
+ /* para que el segundo slide se quede fijo e invisible*/
+ 
+ #slideForm2 , #slideForm{display:none;}
+   
+ .log-in{
+                   height:  14px !important;
+    margin-left: 9px;
+    margin-top: -2px;
+    position: absolute;
+ }
+ 
+ /* para el input que esta dentro del div de URL personalizada en SING UP*/
+ 
+ .fixinputformURL{  height: 28px; padding-top: 2px; margin-top: -4px;border:0;   font-size: 11px;
+    color:#999; padding-left: 2px; width: 116px;position: absolute; margin-top: -8px; left: 129px;
+    padding-bottom: 3px; top: 29px; width: 121px;  border-radius: 0pt 3px 3px 0pt; -webkit-border-radius: 0pt 3px 3px 0pt; padding-top: 4px;
+ color:#aaa; 
+ box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.2), 0 6px 3px -5px rgba(0, 0, 0, 0.5) inset;
+ -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.2), 0 6px 3px -5px rgba(0, 0, 0, 0.5) inset;
+ 
+ }
+ 
+ 
+ /*  contenedor de url en sing up*/
+ .URLfixcontainer{font-size:14px;background:#d8Ebf8; color:#4786b0; padding-top: 8px; }
+ 
+ 
+ /*  mensajes que son mostrados en inicio*/
+ 
+ .contentMessage1{
+color: #FFFFFF;
+    font-size: 18px;
+    height: 150px;
+    left: -94px;
+    line-height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    top: 201px;
+    width: 502px;
+    font-family: 'ColaborateThinRegular',sans-serif !important;
+      
+ }
+ 
+ .contentMessage2{  font-size:14px;  }
+ 
+ .footerInfoFixed{
+      color:#fff !important;
+      
+ }
+ 
+ 
+ #footerInfo ,  #JoinUsMessage, .contentMessage1{
+                   
+                    text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+                   
+ }
+ 
+ #JoinUsMessage{
+                   
+   font-size: 15px;
+    position: absolute;
+    top: 370px;
+ } 
+ 
+ .fontBold{font-weight:bold; }
+ 
+ .NotextTrans{text-transform:none !important;}
+ /* posicionamiento del footer hasta abajo*/
+ #footerInfo{
+
+  bottom: 33px;
+    left: 49px;
+    position: absolute;
+
+
+ }
+ 
+ /* fix para que ya no sea fixed el head */
+ #head{position:relative !important; }
+ 
+ 
+ .FixSubt{ display: none;
+    height: 39px;
+    margin-right: 21px;
+    width: 84px; } /* este fix para el submit en index*/
+ 
+ .right{
+                   float:right;
+                   
+ }
+ 
+ .fixPosLogn{
+                     margin-right: 79px;
+    margin-top: -7px;
+ }
+ 
+ .inpt-form-login{
+  box-shadow: 0 1px #FFFFFF inset, 0 0 0 2px rgba(255, 255, 255, 0.2);
+     border: 1px solid #DDDDDD;
+ 
+    -webkit-box-shadow: 0 1px #FFFFFF inset, 0 0 0 2px rgba(255, 255, 255, 0.2); 
+    color: #AAAAAA;
+    margin-top: 1px;
+ 
+ }
+
+
+
+@font-face {
+    font-family: 'ColaborateThinRegular';
+    src: url('../../css/font/ColabThi-webfont.eot');
+    src: url('../../css/font/ColabThi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../css/font/ColabThi-webfont.woff') format('woff'),
+         url('../../css/font/ColabThi-webfont.ttf') format('truetype'),
+         url('../../css/font/ColabThi-webfont.svg#ColaborateThinRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+ .logo_{
+margin-top: 1px; color: rgba(255, 255, 255, 0.9); text-shadow: 0px 1px rgba(0, 0, 0, 0.7); text-transform: lowercase; font-size: 53px; margin-bottom: 60px;
+
+font-family: 'ColaborateThinRegular',sans-serif !important;
+   
+}
+

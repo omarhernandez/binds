@@ -1,0 +1,5 @@
+modificar las listas
+
+- modificar diseño como dribbble
+- poner los atributos a las tablas de  | imagen | descripcion 
+- ordenar las listas por temas 

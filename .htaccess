@@ -1,0 +1,74 @@
+RewriteEngine On
+
+
+
+
+RewriteRule ^([a-zA-Z0-9-]*)\-([a-zA-Z0-9-]*)$ viewlist.php?id_user=$1&id_list=$2  
+
+ 
+# para que la url de inicio index aparesca sin poner nada
+RewriteRule  ^$   index.php   [L]
+
+
+
+
+# para que la url aparesca binds.me/home
+RewriteRule  ^home$   home.php   [L]
+
+
+# para que la url aparesca binds.me/omarhernandez
+RewriteRule  ^([0-9]*)$  profile.php?id=$1   [L]
+
+#------------------------------------------------------------------------------------------------------------------------------------------------
+#tabs en home
+#  a continuacion vamos a redireccionar las partes de las tabs , poniendo exclusivamente las que se usaran
+
+#para listas
+RewriteRule  ^(list)$   home.php?path=$1 
+ 
+
+
+#para cronologia
+RewriteRule  ^(cronology)$   home.php?path=$1 
+
+ 
+#para destacado
+RewriteRule  ^(highlight)$   home.php?path=$1 
+
+#para popular
+RewriteRule  ^(popular)$    home.php?path=$1
+
+
+ #para questions
+RewriteRule  ^(questions)$   home.php?path=$1 
+
+ #para suscriptores
+RewriteRule  ^(suscribers)$   home.php?path=$1
+
+
+ #para configuracion
+RewriteRule  ^(config)$   home.php?path=$1
+
+ #para editar storyboard
+RewriteRule  ^(edit)$   home.php?path=$1
+#-------------------------------------------------------------------------------------------------------------------------------------------------
+
+# rewrite rule para cuando intentemos accesar a las listas aparesca de la forma
+#The original URL:
+#//viewlist.php/?url_user=omarhernandez&list_name=how-do-you-do-turn-this-on
+#The rewritten URL:
+# viewlist.php/omarhernandez/how-do-you-do-turn-this-on
+
+
+
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ErrorDocument 404  404.php
+
+
+# para que la url aparesca binds.me/interest/Style
+RewriteRule  ^(interest)/([A-Z0-9a-z]*)$  profile.php?path=$1&id=$2   [L]
+ 
+

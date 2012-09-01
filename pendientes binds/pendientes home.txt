@@ -1,0 +1,50 @@
+renombrar ------------------------------------------------------------------------------- 10 a 11 mayo
+
+popular , destacado , storyboard , mis listas
+
+----------------------------------------------------------------------------                        4 horas
+
+cronologia     en orden cronologico ( todo feed de suscriptores )
+
+----------------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------------- ---------------         1 hora
+
+
+mis listas  - hacer funcionar el mostrar los contenidos de cada lista ----------------------         4 horas
+
+cambiar de portada a las listas
+
+destacado   - mostrar en orden cronologico los post que se han enviado a destacado ---------         5 horas porque mostrar los destacados y cuantas veces se mndo
+
+popular  -- pendiente -------------- - - - - - - - - ! ! ! ! ! ! ! ! ! ! ! ! ---------------         1 dia
+
+configurar - - checamos con servicios que dan configurar -----------------------------------------  4 horas
+
+editar storyboard configurar -------------------------------------------------------------------------  4 horas
+
+
+------------------------------------------------------------------------------
+
+publicar 
+
+preguntas - - - - - - pendiente --------------------------------- 1 dia
+
+articulo  - - - - - - checar css  ---------------------------------- 1 hora
+
+video  - - - - - - -  pendiente  ---------------------------------- 5 horas
+
+fotografia - -  - - - pendiente ---------------------------------- 5 horas
+
+evento - - -- - - - - pendiente ---------------------------------- 5 horas
+
+sonido - - - - - -- - pendiente  ---------------------------------- 5 horas
+
+--------------------------------------------------------------------------------
+
+
+crear storyboard --------------------------------------------------------------- 5 horas
+
+hacer busqueda isntantanea ----------------------------------------------------- 5 horas

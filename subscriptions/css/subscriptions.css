@@ -1,0 +1,63 @@
+.containerSubscription{
+	padding: 40px 8px;
+	margin: 0 10px;
+	clear: both;
+}
+
+.imgPfl{
+	margin: 5px;
+	border-radius: 4px 4px 4px 4px;
+    box-shadow: 1px 1px 2px #888888;
+	float: left;
+}
+
+.name_follow{
+	padding: 10px 10px;
+	float: left;
+}
+
+.name{
+	margin: 0px;
+	margin-top: 28px;
+}
+
+.containerSubscription ul{
+	height: 128px;
+	width: 300px;
+	float: left;
+	padding: 10px;
+}
+
+.containerSubscription ul li div{
+	float: left;
+	position: absolute;
+	top: 68px; 
+	left: 50%;
+}
+
+.containerSubscription ul li{
+	position: relative;
+}
+
+.sepa{
+	border-bottom: 1px solid #DDDDDD;
+    box-shadow: 0 1px 0 #FFFFFF;
+    background-color: white;
+	margin: 10px;
+}
+
+.kind{
+	padding-left: 40px;
+	font-size: larger;
+	text-shadow: 1px 1px #FFFFFF;
+}
+
+#seeAllPer{
+	width: 100px;
+	float: right;
+	margin-bottom: 20px;
+}
+
+.nombre{
+	color : #C03030;
+}

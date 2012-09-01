@@ -1,0 +1,334 @@
+                                                /* 
+                                                Document                      : homeUI
+                                                Created on                    : 25-ene-2012, 21:49:03
+                                                Author                        : hp
+                                                Description                   :
+                                                Purpose of the stylesheet follows.
+                                                */
+                                                
+                                                /* 
+                                                TODO customize this sample style
+                                                Syntax recommendation http    ://www.w3.org/TR/REC-CSS2/
+                                                */
+                                                body{
+                                                
+                                                background                    :url("../images/bg/main_b.png")!important;
+                                                
+                                                }
+                                                
+                                                
+                                                #InterestContainer{ margin-top: 10px;display: none }
+                                                
+                                                
+                                                /* es para darle estilos al contenedor en profile del nombre y para seguir al usuario y mas informacion*/
+                                                
+                                                #wrapper{
+                                                
+                                                border-radius                 : 0 0 3px 3px;
+                                                border-top                    : 1px solid #FFFFFF;
+                                                box-shadow                    : 0 -1px #DDDDDD;
+                                                margin                        : 0 auto;
+                                                min-height                    : 400px;
+                                                overflow                      : hidden;
+                                                
+                                                }
+                                                
+                                                /*  contenedor principal de storyboard*/
+                                                
+                                                
+                                                .loader{
+                                                
+                                                display                       :none;
+                                                float                         :right;
+                                                margin-right                  :47px; 
+                                                
+                                                }
+                                                
+                                                /* UI para la imagen del userview*/
+                                                
+                                                .userview{  
+                                                
+                                                float                         :left;}
+                                                
+                                                /* para que la liste flote a la izquierda */
+                                                .optionsUserView{float        :left;margin-left: 28px; min-width:95%;   
+                                                }
+                                                
+                                                /* Letra grande al nombre del usuario view*/
+                                                .NameUserView{color           : #534F4F;margin-top: 17px ;
+                                                font-size                     : 19px; margin-bottom: 5px ;    width: 100%;}
+                                                
+                                                .shadowTxt{   text-shadow     :0 1px 0 #fff; }
+                                                
+                                                #containerImageUserView{         
+                                                
+                                                box-shadow                    : 1px 1px 2px #888888;
+                                                float                         : left;
+                                                height                        : 238px;
+                                                margin-bottom                 : 26px;
+                                                margin-left                   : 6px;
+                                                margin-top                    : 3px;
+                                                overflow                      : hidden;
+                                                width                         : 240px;
+                                                
+                                                
+                                                }            
+                                                /* contenedor de la iamgen a mostrar en storyboard*/
+                                                
+                                                .issueUserImage{
+                                                margin-top                    : 41px;
+                                                width                         : 249px;
+                                                }       
+                                                
+                                                .structContentleftCol{
+                                                
+                                                margin-top                    : 10px;      
+                                                border-radius                 : 4px 4px 4px 4px;
+                                                float                         : left;
+                                                margin-bottom                 : -5px;
+                                                margin-left                   : 12px;
+                                                padding                       : 4px;
+                                                width                         :187px;
+                                                }
+                                                
+                                                
+                                                
+                                                /* followers UI para la columna izquierda*/
+                                                
+                                                
+                                                #ContentInformation{
+                                                float                         : right;
+                                                min-height                    : 600px;
+                                                width                         : 100%;
+                                                }
+                                                
+                                                
+                                                .colorBlue{color              :#19558D} /* estandarizar color azul*/
+                                                
+                                                .mnWidth{ 
+                                                
+                                                width                         : 1008px !important;
+                                                }
+                                                
+                                                .leftBarWidth{margin-left     :-1px !important; width:751px !important; }
+                                                
+                                                
+                                                
+                                                
+                                                .menutabs{
+                                                float                         : left;
+                                                margin-bottom                 : 23px;
+                                                
+                                                }
+                                                
+                                                .infoUserPageList{
+                                                color                         : #AAAAAA;
+                                                text-shadow                   : 0 1px 0 #FFFFFF; float:left;margin-right:4px;
+                                                
+                                                }
+                                                
+                                                #tbx_textEditorContent_tbl {
+                                                width                         : 100%;
+                                                }
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                /*******************************************************************************/
+                                                
+                                                .UIlist-topic-count{
+                                                
+                                                font-size                     : 10px !important;
+                                                width                         : 183px;
+                                                }
+                                                
+                                                .UIlist-topic .image-list{
+                                                
+                                                height                        : 136px;
+                                                margin-bottom                 : 9px;
+                                                }
+                                                
+                                                .UIlist-topic{
+                                                background-image              : url(" http://media-cache-ec4.pinterest.com/upload/116882552799279069_mg4Q5RpS_b.jpg");
+                                                background-size               : 145% auto;
+                                                border                        : 7px solid #FFFFFF;
+                                                box-shadow                    : 1px 1px 2px #888888;
+                                                float                         : left;
+                                                margin                        : 17px 10px 35px;
+                                                overflow                      : hidden;
+                                                width                         : 189px;
+                                                opacity:1 !impot;
+                                                }
+                                                
+                                                .UIlist-topic                 :hover{
+                                                
+                                                cursor                        :  pointer;
+                                                
+                                                }
+                                                
+                                                .UIlist-topic-name ,.UIlist-topic-count {
+                                                color                         : #444444;
+                                                font-size                     : 11px;
+                                                font-weight                   : bold;
+                                                height                        : 26px;
+                                                margin-bottom                 : 15px;
+                                                padding-left                  : 1px;
+                                                padding-top                   : 9px;
+                                                position                      : absolute;
+                                                text-shadow                   : 1px 1px #FFFFFF;
+                                                width                         : 193px;
+                                                }
+                                                
+                                                .UIlist-topic-name{
+                                                
+                                                margin-top                    : 10px;
+                                                
+                                                }
+                                                
+                                                .update_image_list            :hover{
+                                                
+                                                cursor                        :pointer;
+                                                text-decoration               : underline;
+                                                background                    : none repeat scroll 0 0 rgba(0, 0, 0, 1);       
+                                                }
+                                                
+                                                .update_image_list{
+                                                background                    : none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+                                                color                         : #CCCCCC;
+                                                z-index                       : 2147483647;
+                                                padding-top                   : 8px;
+                                                float                         : left;
+                                                padding-bottom                : 8px;
+                                                padding-left                  : 10px;
+                                                padding-right                 : 25px;
+                                                
+                                                
+                                                }
+                                                
+                                                .change_image{
+                                                
+                                                height                        : 16px;
+                                                
+                                                }
+                                                
+                                                
+                                                .update_image_list            :hover{
+                                                
+                                                text-decoration               : underline;
+                                                color                         :#fff;
+                                                }
+                                                
+                                                #ListContainer , #highlightContainer , .suscriptionsContainer , .config_profile , .edit_profile ,.topic_popular{
+                                                
+                                                
+                                                display                       :none;
+                                                
+                                                }
+                                                
+                                                
+                                                .statList{
+                                                background-image              : url("../images/icon/hr.png");
+                                                background-position           : left center;
+                                                background-repeat             : no-repeat;
+                                                background-size               : 20px auto;
+                                                float                         : right;
+                                                margin-right                  : 6px;
+                                                padding-left                  : 20px;
+                                                }
+                                                
+                                                /******************/
+                                                
+                                                .fixurlinput{
+                                                border                        : 0 none !important;
+                                                border-radius                 : 0 3px 3px 0 !important;
+                                                margin-left                   : 131px !important;
+                                                width                         : 170px !important;
+                                                
+                                                }
+                                                
+                                                .fixurldiv{
+                                                
+                                                background                    : none repeat scroll 0 0 #D8EBF8;
+                                                border-color                  : #BBBBBB #DDDDDD #DDDDDD;
+                                                border-radius                 : 3px 3px 3px 3px;
+                                                border-style                  : solid;
+                                                border-width                  : 1px;
+                                                margin-top                    : 1px;
+                                                width                         : 311px;
+                                                }
+                                                
+                                                .nmeurl{
+                                                color                         : #4786B0;
+                                                margin-left                   : 20px;
+                                                margin-top                    : 7px;
+                                                position                      : absolute;
+                                                }
+                                                
+                                                .categorie li                 :last-child{
+                                                
+                                                background                    : none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+                                                color                         : #FFFFFF;
+                                                font-weight                   : bold;
+                                                margin-top                    : -36px;
+                                                padding-bottom                : 8px;
+                                                padding-left                  : 16px;
+                                                padding-top                   : 7px;
+                                                position                      : relative;
+                                                
+                                                }
+                                                
+                                                .categorie{
+                                                border-radius                 : 1px 1px 1px 1px;
+                                                box-shadow                    : 1px 1px 3px #444444;
+                                                margin-bottom                 : 7px;
+                                                margin-left                   : 9px;
+                                                margin-right                  : 6px;    
+                                                
+                                                
+                                                }
+                                                .name_categorie{
+                                                background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+                                                color: #FFFFFF;
+                                                margin-top: 1px;
+                                                padding-bottom: 5px;
+                                                padding-left: 8px;
+                                                padding-top: 5px;
+                                                }
+                                                
+                                                .categorie                    :hover{
+                                                
+                                                cursor                        :pointer;
+                                                
+                                                }
+                                                
+                                                
+                                                .textShadow{
+                                                
+                                                font-weight                   : bold;
+                                                color                         : #BBBBBB;
+                                                float                         : left;
+                                                font-size                     : 28px;
+                                                margin-top                    : 230px;
+                                                text-shadow                   : 1px 1px #FFFFFF;
+                                                width                         : 158px;
+                                                }
+                                                
+                                                /*  formateamos los comentarios despuesta para cronologia */
+                                                
+                                                .strctChatResponse{
+                                                
+                                                width                         : 622px !important;
+                                                
+                                                
+                                                }
+                                                
+                                                #content{
+                                                
+                                                
+                                                
+                                                background:none;
+                                                
+                                                }
+                                                
