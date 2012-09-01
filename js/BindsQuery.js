@@ -867,7 +867,7 @@ function GetallFeed(data,container) {
 
 					getFeedArticle  +=  "<span class='titart'><a href='"+item.contenido_userset+"'  class='colorMain'> "+item.user_name_set+
 
-					"</a> <span class='gray'> publico un artículo  <a href='./"+url_path+item.id_came_from+"'>"+item.name_came_from+"</a></span></span>" ;
+					"</a> <span class='gray'> publico un artículo en <a href='./"+url_path+item.id_came_from+"'>"+item.name_came_from+"</a></span></span>" ;
     
 
 				}else{

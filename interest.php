@@ -10,7 +10,7 @@ require_once ('class/init_interest.php'); // contiene todo para iniciar profile
      <title>  <?php  echo  " Binds -   ".$_SESSION["name_view"]; ?></title>
      
      <head>
-      <base href="http://<?php echo $_SERVER["SERVER_NAME"] ?>/binds/"> 
+      <base href="http://<?php echo $_SERVER["SERVER_NAME"] ?>/"> 
       <link rel="shortcut icon" href="images/icon/binds.png" type="image/x-icon" />
       <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
       <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
