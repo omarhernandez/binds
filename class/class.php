@@ -15,16 +15,26 @@ header("Content-Type: text/html;charset=utf-8");
 //******************************************************************************************************************************************
 //******************************************************************************************************************************************
 
+ 
+
+
+
+
+
+
+
 class Conectar {
 
 	public static function con() {
 
 
-	   $conexion = mysql_connect("localhost", "business_cu", "galaxie50011") or
+ $conexion = mysql_connect("localhost", "bindsmec_omr", "nf9ckpg") or
 
 		// 	$conexion = mysql_connect("localhost", "root", "") or
 				die("Error de conexion: " . mysql_error());  // hacemos conexion al serv
-		   mysql_select_db("business_binds") or
+		
+
+		   mysql_select_db("bindsmec_binds") or
 		// mysql_select_db("binds") or
 				die("Error de conexion: " . mysql_error()); //seleccionamso la tabla agency car
 

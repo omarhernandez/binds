@@ -75,3 +75,9 @@
 [31-Jul-2012 18:05:18] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/business/public_html/binds/settings.php:2) in /home/business/public_html/binds/settings.php on line 3
 [31-Jul-2012 18:05:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/business/public_html/binds/settings.php:2) in /home/business/public_html/binds/class/class.php on line 2
 [31-Jul-2012 18:05:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/business/public_html/binds/settings.php:2) in /home/business/public_html/binds/class/class.php on line 3
+<<<<<<< HEAD
+=======
+[29-Aug-2012 22:27:59] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/business/public_html/binds/settings.php:2) in /home/business/public_html/binds/settings.php on line 3
+[29-Aug-2012 22:27:59] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/business/public_html/binds/settings.php:2) in /home/business/public_html/binds/class/class.php on line 2
+[29-Aug-2012 22:27:59] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/business/public_html/binds/settings.php:2) in /home/business/public_html/binds/class/class.php on line 3
+>>>>>>> 4710431b92f178f4d957aa2700d47d55d5cb7584

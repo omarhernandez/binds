@@ -46,3 +46,8 @@
 [31-Jul-2012 17:59:37] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/business/public_html/binds/class/class.php:204) in /home/business/public_html/binds/class/class.php on line 208
 [31-Jul-2012 18:03:40] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/business/public_html/binds/class/class.php:204) in /home/business/public_html/binds/class/class.php on line 208
 [11-Aug-2012 15:45:41] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/business/public_html/binds/class/class.php on line 23
+<<<<<<< HEAD
+=======
+[25-Aug-2012 13:48:50] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/business/public_html/binds/class/class.php:204) in /home/business/public_html/binds/class/class.php on line 208
+[29-Aug-2012 22:25:35] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/business/public_html/binds/class/class.php:204) in /home/business/public_html/binds/class/class.php on line 208
+>>>>>>> 4710431b92f178f4d957aa2700d47d55d5cb7584
