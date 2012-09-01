@@ -165,7 +165,7 @@ $_SESSION["article"] = $global_id_view = binds::getTheGlobalIdUserOrTopic($_SESS
 
 						<li   path="./cronology"  class="leftList  Menu  none uiIcon icon  cronologyicon get_cronology_data active_tabs" id="Cronology">   Cronologia</li>   
 						<li  path="./list" class="leftList  Menu none  uiIcon icon  highlighicon border-menu get_list_user get_list_data">Mis listas</li>  
-						<li   path="./highlight"  class="leftList  Menu none  uiIcon icon  highlighicon border-menu  get_highlight_data"   >Destacado</li>  
+						<li   path="./contact"  class="leftList  Menu none  uiIcon icon  highlighicon border-menu   get_chat_bindsme"   >Contactos</li>  
 
 
 					</ul>
@@ -173,6 +173,7 @@ $_SESSION["article"] = $global_id_view = binds::getTheGlobalIdUserOrTopic($_SESS
 
 					<ul class="menutabs">
 
+						<li   path="./highlight"  class="leftList  Menu none  uiIcon icon  highlighicon border-menu  get_highlight_data"   >Destacado</li>  
 						<li   path="./popular"   class="leftList  Menu none  uiIcon icon    get_topic_popular"  > Popular  </li>       
 
 					</ul>
