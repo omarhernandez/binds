@@ -1003,11 +1003,11 @@
                                                   margin-top: 13px
                                                   }
                                                   
-                                                  .gray{color:#999;font-size: 18px;}
+                                                  .gray{color:#999;font-size: 17px;}
                                                   
                                                   .gray , .titart{
                                                   text-shadow: 0 1px #FFFFFF;
-                                                  
+
                                                   }
                                                   
                                                   /*    formateando los comentarios en storyboard*/
@@ -1038,7 +1038,7 @@
                                                      .colorMain{
                                                      
                                                      color: #222222 !important;
-                                                     font-size: 18px;
+                                                     font-size: 17px;
                                                      
                                                      }
                                                   /* *************************************************************************************** */
