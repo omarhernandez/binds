@@ -1003,7 +1003,7 @@
                                                   margin-top: 13px
                                                   }
                                                   
-                                                  
+                                                  .gray{color:#888;font-size: 13px;}
                                                   
                                                   .gray , .titart{
                                                   text-shadow: 0 1px #FFFFFF;
@@ -1035,7 +1035,7 @@
                                                   color: #222;
                                                   }
                                                   
-                                                     .colorMain , .gray{
+                                                     .colorMain , .gray a{ 
                                                      
                                                      color: #222222 !important;
                                                      font-size: 13px;
