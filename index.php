@@ -13,9 +13,7 @@
                                     <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />    
                                     <link rel="stylesheet" type="text/css" href="login/css/login.css" media="screen" />  
                                     <link rel="stylesheet" type="text/css" href="css/buttons.css" media="screen" />
-
                                     <script type="text/javascript" src="js/jquery-1.6.js" ></script>
-
                                     <script type="text/javascript" src="login/js/InitIndexFunctions.js"></script>
 
                   </head>
@@ -52,7 +50,7 @@
                                                                         <div class="contentMessage1"> 
 
 
-<div class="logo_">binds</div>
+<div class="logo_"> </div>
 
 
                                                                               Conoce gente con intereses similares a ti  y  comparte tu pasion por lo que haces.

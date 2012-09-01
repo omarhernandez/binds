@@ -14,16 +14,13 @@
 /* Este es el Div de la pagina index , la principal para logearse , este es el contenedor de la informacion */
 
 body{
-     
-  background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-image: url("../../images/bg.jpg");
-    background-origin: padding-box;
-    background-position: 4px -8px;
-    background-repeat: repeat;
-    background-size: 100% auto;
-    overflow-y: hidden;
+ background: -webkit-radial-gradient(center center , ellipse farthest-corner, #394976 -19%, #0F1620 84%) repeat scroll 0 0 transparent;
+  background: -moz-radial-gradient(center center , ellipse farthest-corner, #394976 -19%, #0F1620 84%) repeat scroll 0 0 transparent;
+  background: -o-radial-gradient(center center , ellipse farthest-corner, #394976 -19%, #0F1620 84%) repeat scroll 0 0 transparent;
+  background: -ms-radial-gradient(center center , ellipse farthest-corner, #394976 -19%, #0F1620 84%) repeat scroll 0 0 transparent;
+  background: radial-gradient(center center , ellipse farthest-corner, #394976 -19%, #0F1620 84%) repeat scroll 0 0 transparent;
+  height: 100%;
+  width: 100%;
 }
 
 
@@ -332,9 +329,13 @@ color: #FFFFFF;
 
 
  .logo_{
-margin-top: 1px; color: rgba(255, 255, 255, 0.9); text-shadow: 0px 1px rgba(0, 0, 0, 0.7); text-transform: lowercase; font-size: 53px; margin-bottom: 60px;
-
-font-family: 'ColaborateThinRegular',sans-serif !important;
+  background: url("../../images/bnd_a.png") no-repeat scroll 0 0 transparent;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'ColaborateThinRegular',sans-serif !important;
+    height: 53px;
+    margin: 0 auto;
+    width: 125px;
+    margin-bottom: 60px;
    
 }
 
