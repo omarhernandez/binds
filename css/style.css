@@ -581,8 +581,10 @@
                                                   /* stilos de imagenes de usuarios */
                                                   
                                                   .image{    
-                                                  float:left;
-                                                  padding: 5px 3px;
+                                                  border: 2px solid white;
+                                                  border-radius: 100px 100px 100px 100px;
+                                                  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.31);
+                                                  float: left;
                                                   
                                                   }
                                                   
@@ -979,10 +981,11 @@
                                                   
                                                   }
                                                   
-                                                  .imagtit{
-                                                  margin-left: 5px;
-                                                  margin-top: 5px;
-                                                  }
+                                                   .imagtit{
+                                                   left: 261px;
+                                                   margin-top: -2px;
+                                                   position: absolute;
+                                                   }
                                                   
                                                   .titart , .name {
                                                   color: #CA3030 ;

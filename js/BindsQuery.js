@@ -859,7 +859,7 @@ function GetallFeed(data,container) {
                   
 				"      <div  class='headArtic'> "+
                       
-				"<a href=' "+item.contenido_userset+"'   class='imageUserTip'> <img class='image imagtit ' width='34'  src='userpic_thumb/"+item.post_current_image_user+"'></a>";
+				"<a href=' "+item.contenido_userset+"'   class='imageUserTip'> <img class='image imagtit ' width='50'  src='userpic_thumb/"+item.post_current_image_user+"'></a>";
                       
                   
 				if(jsonVar.set_location =="cronology"  || jsonData.set_location == "view_list" ) {
@@ -1035,7 +1035,7 @@ function GetallFeed(data,container) {
                   
 				"      <div  class='headArtic'> "+
                       
-				"<a href='"+item.contenido_userset+"'   class='imageUserTip'> <img class='image imagtit ' width='34'  src='userpic_thumb/"+item.post_current_image_user+"'></a>";
+				"<a href='"+item.contenido_userset+"'   class='imageUserTip'> <img class='image imagtit ' width='50'  src='userpic_thumb/"+item.post_current_image_user+"'></a>";
 				
 
  
@@ -1162,7 +1162,7 @@ function GetallFeed(data,container) {
                   
 				"      <div  class='headArtic'> "+
                       
-				"<a href='"+item.contenido_userset+"'   class='imageUserTip'> <img class='image imagtit ' width='34'  src='userpic_thumb/"+item.post_current_image_user+"'></a>";
+				"<a href='"+item.contenido_userset+"'   class='imageUserTip'> <img class='image imagtit ' width='50'  src='userpic_thumb/"+item.post_current_image_user+"'></a>";
 				
 
 				if(jsonVar.set_location =="cronology" || jsonData.set_location == "view_list" ) {
@@ -1327,7 +1327,7 @@ function getComentReplyFormat(data){
 		getComentReply += " <div class='strctChatResponse'  id='chatResponse"+ item.id_coment_reply +"'> " +
                          
                          
-		" <a href='"+ item.id_user+"'> <img width='34' class='image' src='userpic_thumb/"+ item.current_image_user+"' /></a> " +
+		" <a href='"+ item.id_user+"'> <img width='50' class='image' src='userpic_thumb/"+ item.current_image_user+"' /></a> " +
                      
 		"  <div   class='UIContntComentsChat fixStructResponceCmnt'>" +
                       
