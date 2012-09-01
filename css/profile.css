@@ -127,11 +127,20 @@ float: left;
 }
 
 
-.floatRight{
-                  margin-right:9px; 
-                  float:right;
-
-}
+               .floatRight{
+               background: -moz-linear-gradient(#F5F6F6, #E4E4E3) repeat scroll 0 0 transparent;
+               border-color: #CCCCCC #CCCCCC #999999;
+               border-radius: 3px 3px 3px 3px;
+               border-style: solid;
+               border-width: 1px;
+               box-shadow: 0 1px 0 rgba(100, 100, 100, 0.1), 0 1px 0 #FFFFFF inset;
+               color: #444444 !important;
+               float: right;
+               margin-right: 9px;
+               padding: 4px 12px;
+               text-shadow: 1px 1px #FFFFFF;
+               
+               }
 
 .floatLeft{float:left;}
 
