@@ -58,14 +58,10 @@
                                                  }
                                                  /****************************************************************** seccion del logo */
                                                  #binds{
-                                                 
                                                  background: url("../images/binds_t.png") no-repeat scroll 0 6px transparent;
                                                  cursor: pointer;
                                                  float: left;
                                                  height: 42px;
-                                                 left: 37px;
-                                                 margin-top: 6px;
-                                                 position: absolute;
                                                  width: 160px;
                                                  }
                                                  
