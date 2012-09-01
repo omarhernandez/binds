@@ -608,7 +608,7 @@ function GetallFeed(data,container) {
 		var GetReplyMessageQuery="";//las respuestas a los comentarios
 		var GetMessageQuery="";
 
-		var url_path  =  (item.type_user == 1 ) ? "./" : "./interest/";
+		var url_path  =  (item.type_user == 1 ) ? "./" : "./interest/"; // formateamos la url
  
 		//********************************************************************************************************************************** 
 		// SI EXISTE MENSAJE REPLY ENTONCES LO ALMACENAMOS ANTES DE VER QUE CONTENIDO ES , CUANDO LO ALMACENAMOS PROCEDEMOS A APPEND JUNTO CON EL TIPO DE ARCHIVO
@@ -1171,7 +1171,7 @@ function GetallFeed(data,container) {
 					getFeedPhoto  +=  "   <span class='titart'> <a href='"+item.contenido_userset+"'  class='colorMain'>   "+item.user_name_set+
 
 
-					" </a><span class='gray'> @  <a href='./"+url_path+item.id_came_from+"'>"+item.name_came_from+"</a></span></span>" ;
+					" </a><span class='gray'> publico una imagen en   <a href='./"+url_path+item.id_came_from+"'>"+item.name_came_from+"</a></span></span>" ;
 
     
 				}else{
