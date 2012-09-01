@@ -857,7 +857,7 @@ function GetallFeed(data,container) {
       
                   
                   
-				"      <div  class='headArtic'> "+
+				"      <div  class='headArtic'>  <span class='direction_row'> </span> "+
                       
 				"<a href=' "+item.contenido_userset+"'   class='imageUserTip'> <img class='image imagtit ' width='50'  src='userpic_thumb/"+item.post_current_image_user+"'></a>";
                       
@@ -1033,7 +1033,7 @@ function GetallFeed(data,container) {
       
                   
                   
-				"      <div  class='headArtic'> "+
+				"      <div  class='headArtic'> <span class='direction_row'> </span> "+
                       
 				"<a href='"+item.contenido_userset+"'   class='imageUserTip'> <img class='image imagtit ' width='50'  src='userpic_thumb/"+item.post_current_image_user+"'></a>";
 				
@@ -1160,7 +1160,7 @@ function GetallFeed(data,container) {
       
                   
                   
-				"      <div  class='headArtic'> "+
+				"      <div  class='headArtic'> <span class='direction_row'> </span> "+
                       
 				"<a href='"+item.contenido_userset+"'   class='imageUserTip'> <img class='image imagtit ' width='50'  src='userpic_thumb/"+item.post_current_image_user+"'></a>";
 				

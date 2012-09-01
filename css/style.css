@@ -1193,14 +1193,14 @@
                                                   line-height: 50px;
                                                   
                                                   }
-                                                  
+                                                        
                                                         .direction_row{
-                                                        border-color: transparent transparent rgba(255, 255, 255, 0.9);
+                                                        border-color: transparent rgba(255, 255, 255, 0.9) transparent transparent;
                                                         border-style: solid;
-                                                        border-width: 0 7px 9px;
+                                                        border-width: 9px;
                                                         height: 0;
-                                                        left: 20px;
-                                                        margin-top: -16px;
+                                                        left: 309px;
+                                                        margin-top: 17px;
                                                         position: absolute;
                                                         width: 1px;
                                                         }
