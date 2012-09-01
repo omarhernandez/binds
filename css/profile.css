@@ -156,12 +156,12 @@ float: left;
 
 .stateComent{
 
-                  float: right;
-                  height: 21px;
-                  padding-top: 10px;
-                  width: 655px;
-                  font-size: 11px;
-                  width: 100%;            
+        float: right;
+    font-size: 11px;
+    height: 21px;
+    padding-bottom: 9px;
+    padding-top: 6px;
+    width: 100%;          
 }
 .comenty{
                   color: #AAAAAA;
