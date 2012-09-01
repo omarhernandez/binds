@@ -199,7 +199,7 @@ position:absolute;
    }
    
  
- /* para que el segundo slide se quede fijo e invisible*/
+ /* para que el segundo slide se quede fijo e invisible*/ 
  
  #slideForm2 , #slideForm{display:none;}
    
